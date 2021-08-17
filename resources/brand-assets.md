@@ -1,5 +1,13 @@
 # Brand Assets
 
+You must use these assets in the form in which they are made available below. To avoid confusion, you may not alter the color, font, proportions, or any other aspect of our logos and design marks without our prior consent.
+
+You must also set a logo or design mark off from the other content appearing in your use, and must not place it in such close proximity to other content that it is indistinguishable from that other content.
+
+Except in uses permitted by [Script3](https://www.script3.io/), you may not make these logos the most prominent feature of your use.
+
+
+
 ### **YieldBlox and YBX Icons**
 
 {% file src="../.gitbook/assets/logo-3x.png" caption="Logo" %}
