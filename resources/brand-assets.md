@@ -12,9 +12,9 @@ Except in uses permitted by [Script3](https://www.script3.io/), you may not make
 
 {% file src="../.gitbook/assets/logo-3x.png" caption="Logo" %}
 
-{% file src="../.gitbook/assets/logo-black-text-3x.png" %}
+{% file src="../.gitbook/assets/logo-black-text-3x.png" caption="Logo - black text" %}
 
-{% file src="../.gitbook/assets/logo-white-text-3x.png" %}
+{% file src="../.gitbook/assets/logo-white-text-3x.png" caption="Logo - white text" %}
 
 [**Colors**](https://colorpeek.com/#37b04a,231f20)\*\*\*\*
 
