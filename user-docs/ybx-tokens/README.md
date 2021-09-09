@@ -8,7 +8,7 @@ YBX tokens are the YieldBlox protocol's platform tokens. They can be used to ear
 
 ## How many YBX tokens are there?
 
-There are a total of 150,000,000 YBX tokens to be allocated.
+There are a total of 1,500,000,000 YBX tokens to be allocated.
 
 ## How do I get YBX tokens?
 
@@ -68,7 +68,7 @@ $$
 
 Where:  
 $$I=$$ the YBX issuance of the current period  
-$$T=$$ the total number of YBX tokens to be issued; 150,000,000  
+$$T=$$ the total number of YBX tokens to be issued; 1,500,000,000  
 $$O=$$ the number of YBX tokens outstanding  
 $$R=$$ the YBX issuance rate; initially 0.01
 
@@ -76,7 +76,7 @@ $$R=$$ the YBX issuance rate; initially 0.01
 
 Yes, there will be an initial distribution of YBX tokens. This initial float of governance tokens is represented as $$A_0$$in the governance issuance equation above. The distribution will be a total of 69,000,000 YBX tokens. It will be distributed to the YieldBlox DAO, early contributors to the YieldBlox protocol, a bug bounty, marketing efforts, and Stellar ecosystem members! The initial team and investor token allocation will be locked for a year to ensure that the team and investors remain aligned with the long-term success of the protocol. The YieldBlox DAO Treasury allocation is directly controlled by the YieldBlox [governance system](../governance.md).
 
-After the initial distribution, the remaining 81,000,000 YBX tokens will be distributed to protocol lenders and borrowers. So overall, 92% of all YBX tokens will be distributed directly to the community! 
+After the initial distribution, the remaining 810,000,000 YBX tokens will be distributed to protocol lenders and borrowers. So overall, 92% of all YBX tokens will be distributed directly to the community! 
 
 ![](../../.gitbook/assets/ybx-allocation.svg)
 

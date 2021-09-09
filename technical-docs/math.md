@@ -306,7 +306,7 @@ $$
 
 Where:  
 $$I =$$the number of YBX issued  
-$$T =$$the total number of YBX tokens to be issued; 150,000,000  
+$$T =$$the total number of YBX tokens to be issued; 1,500,000,000  
 $$O =$$the total number of YBX tokens outstanding  
 $$R =$$the total YBX issuance rate; initially 0.01
 

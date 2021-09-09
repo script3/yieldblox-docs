@@ -32,7 +32,7 @@ Creating a proposal generates a governance transaction and a proposal account co
 
 Governance proposals can be created by any user account staking more than 0.01% of [YBX tokens](ybx-tokens/).
 
-## Non-Standard Governance Proposals
+## Standard Governance Proposals
 
 ### YBX Incentive Allocations
 

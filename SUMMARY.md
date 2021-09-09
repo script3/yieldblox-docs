@@ -20,6 +20,7 @@
   * [YBX Tokenomics](user-docs/ybx-tokens/ybx-tokenomics.md)
   * [Game Theory of YBX](user-docs/ybx-tokens/game-theory-of-ybx.md)
   * [YBX Default Protection](user-docs/ybx-tokens/ybx-backstop.md)
+  * [YBX Airdrop Setup](user-docs/ybx-tokens/ybx-airdrop-setup.md)
 * [Why Stellar?](user-docs/why-stellar.md)
 
 ## Technical Docs
