@@ -1,6 +1,6 @@
 # YBX Airdrop Setup
 
-## [Airdrop Announcement](https://script3.medium.com/)
+## [Airdrop Announcement](https://script3.medium.com/everything-you-need-to-know-about-the-ybx-airdrop-89b4f04519d0)
 
 ## YBX Token
 
