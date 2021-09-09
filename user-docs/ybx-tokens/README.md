@@ -74,11 +74,11 @@ $$R=$$ the YBX issuance rate; initially 0.01
 
 ## Is there an initial YBX token distribution?
 
-Yes, there will be an initial distribution of YBX tokens. This initial float of governance tokens is represented as $$A_0$$in the governance issuance equation above. The distribution will be a total of 69,000,000 YBX tokens. It will be distributed to the YieldBlox DAO, early contributors to the YieldBlox protocol, a bug bounty, marketing efforts, and Stellar ecosystem members! The initial team and investor token allocation will be locked for a year to ensure that the team and investors remain aligned with the long-term success of the protocol. The YieldBlox DAO Treasury allocation is directly controlled by the YieldBlox [governance system](../governance.md).
+Yes, there will be an initial distribution of YBX tokens. This initial float of governance tokens is represented as $$A_0$$in the governance issuance equation above. The distribution will be a total of 690,000,000 YBX tokens. It will be distributed to the YieldBlox DAO, early contributors to the YieldBlox protocol, a bug bounty, marketing efforts, and Stellar ecosystem members! The initial team and investor token allocation will be locked for a year to ensure that the team and investors remain aligned with the long-term success of the protocol. The YieldBlox DAO Treasury allocation is directly controlled by the YieldBlox [governance system](../governance.md).
 
 After the initial distribution, the remaining 810,000,000 YBX tokens will be distributed to protocol lenders and borrowers. So overall, 92% of all YBX tokens will be distributed directly to the community! 
 
-![](../../.gitbook/assets/ybx-allocation.svg)
+![](../../.gitbook/assets/ybx-allocation-final-3x.png)
 
 ## Will there be a YBX airdrop?
 
