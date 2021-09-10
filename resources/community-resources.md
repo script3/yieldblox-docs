@@ -16,7 +16,7 @@ email: support@script3.io
 
 [Twitter](https://twitter.com/script3official)
 
-[Discord](https://discord.com/invite/yHZ9mwm8Qz)
+[Discord](https://discord.com/invite/XDQfpAjy8v)
 
 [Keybase](https://keybase.io/team/script3)
 
