@@ -83,7 +83,11 @@ The YieldBlox protocol is updated and maintained using a [governance](governance
 
 Every application ever created has some risk. With YieldBlox, the risks are smart contract and liquidation related. A smart contract vulnerability would be a bug in the protocol code. The risk of liquidation is user-specific and an intended function of the protocol. To mitigate risks, our team has taken every imaginable step to ensure the security of our protocol. The YieldBlox protocol is currently seeking third-party audits, and will have a bug bounty to further ensure security.
 
+## YieldBlox Roadmap \(General\)
 
+Below is a high-level roadmap of what the Script3 team has planned for the YieldBlox protocol throughout the rest of 2021.
+
+![](../.gitbook/assets/script3-roadmap-3x.png)
 
 ### 
 
