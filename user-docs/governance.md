@@ -48,7 +48,7 @@ Unlike governance proposal functions, this function does not have voting or queu
 
 ### Freezing Protocol Smart Contracts
 
-The other main risk of the [Turrets](https://tss.stellar.org/) protocol is a bug in the YieldBlox smart contracts. While our team has thoroughly tested our smart contracts and had them audited, it is still possible a bug slips through the cracks. To protect against this possibility, the governance smart contract includes a  `freezeContract` operation. This freezes a specified smart contract and prevents it from being ran. This contract gives 
+The other main risk of the [Turrets](https://tss.stellar.org/) protocol is a bug in the YieldBlox smart contracts. While our team has thoroughly tested our smart contracts and had them audited, it is still possible a bug slips through the cracks. To protect against this possibility, the governance smart contract includes a  `freezeContract` operation. This freezes a specified smart contract and prevents it from being ran. This contract gives users the ability to quickly freeze a smart contract if a bug is found in it to minimize damage.
 
 Like the `revokeSigner` option, this proposal does not have a voting or queue period. As soon as the proposal account reaches 15% of governance tokens voting YES, the proposal will be implemented. This operation can be reversed using either a governance function or a freeze protocol operation.
 
