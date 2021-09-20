@@ -15,14 +15,14 @@ The five actions a user can do with YBX \(simplified\):
 * Sell \(-\)
 * Hold \(+\)
 * [Stake](ybx-tokenomics.md#level-1-users-can-stake-ybx-to-earn-a-portion-of-yieldblox-protocol-revenue) \(++\)
-* Stake + [Vote](ybx-tokenomics.md#level-4-users-can-use-sybx-to-vote-on-the-allocation-of-ybx-incentives-to-different-lending-pools) \(+++\)
-* Stake + Vote + [AMM](ybx-tokenomics.md#level-4-users-can-use-sybx-to-vote-on-the-allocation-of-ybx-incentives-to-different-lending-pools) \(+++++\)
+* Stake + [Vote](ybx-tokenomics.md#level-4-users-can-use-sybx-to-vote-on-the-allocation-of-ybx-incentives-to-different-lending-pools) + Borrow \(+++\)
+* Stake + Vote + Borrow + [AMM](ybx-tokenomics.md#level-4-users-can-use-sybx-to-vote-on-the-allocation-of-ybx-incentives-to-different-lending-pools) \(+++++\)
 
 In the above list, anything from "Hold" and below is seen as a positive outcome \(increasing in benefit as one goes down the list\), and "Sell" is a negative outcome. The positivity of these actions takes the following goals into mind: users want to profit, the protocol wants high liquidity to repurchase and sell YBX easily through its [staking](../staking.md#how-does-staking-work-on-yieldblox) and [default protection](ybx-backstop.md#how-does-ybx-default-protection-remove-counterparty-risk) functions, and the protocol and users want to minimize YBX selling pressure to ensure the default protection system is effective. Each user wants the most positive outcome for them and the protocol.
 
 Let's say there are two users who both have YBX. Their action strategies can be seen here:
 
-![](../../.gitbook/assets/ybx-game-theory-3x%20%281%29.png)
+![](../../.gitbook/assets/ybx-game-theory-borrow-3x.png)
 
 If they both claim YBX and do nothing with it \(hold\), it is seen as a positive outcome \(1,1\). The protocol still functions as it is supposed to, and users still get their YBX for lending or borrowing. Therefore, the protocol would see the base positive outcome of \(1,1\) \(1 +1 = 2\).
 
