@@ -18,7 +18,7 @@ Where:
 $$U=$$the Utilization ratio  
 $$L=$$the total number of liability tokens  
 $$B=$$the total balance of the pool  
-![](../.gitbook/assets/tee-100.jpg)$$=$$ a ScripTee
+
 
 
 

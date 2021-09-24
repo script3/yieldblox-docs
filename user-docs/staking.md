@@ -69,7 +69,7 @@ To unstake early, a user should select 'Unstake early' in the staking modal \(wi
 
 ## Does staking on YieldBlox make me a validator?
 
-Yes. By staking on YieldBlox, you're validating our life choices. ![](../.gitbook/assets/tee-100.jpg) 
+Yes. By staking on YieldBlox, you're validating our life choices. 
 
 
 
