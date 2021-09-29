@@ -61,7 +61,7 @@ Here are some non-native assets reputable third parties currently anchor:
 * **ARST** Argentine pes anchor provided by [Stablex](https://stablex.org/) 
 * **GOLD** Gold anchor provided by [StellarMetals](https://stellarmetals.org/) 
 * **BTC** Bitcoin anchor provided by [Papaya](https://apay.io/in) 
-* **ETH** Etherium anchor provided by [Interstellar](https://interstellar.exchange/) 
+* **ETH** Ethereum anchor provided by [Interstellar](https://interstellar.exchange/) 
 * **DSTOQ** Equities anchor provided by [DSTOQ](https://www.dstoq.com/)
 
 More anchors can be viewed on [Stellar Expert](https://stellar.expert/explorer/public/).
