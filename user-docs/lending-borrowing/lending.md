@@ -2,9 +2,9 @@
 
 ## How does lending work on YieldBlox?
 
-Lenders provide assets to the lending pool and receive interest in return. Borrowers can [borrow](./#how-does-borrowing-work-on-yieldblox) these assets by posting [collateral](./#what-is-collateral) and paying interest at loan repayment.
+Lenders provide assets to the lending pool and receive interest in return. Borrowers can [borrow](borrowing.md) these assets by posting [collateral](borrowing.md#what-is-collateral) and paying interest at loan repayment.
 
-Loans can be taken out for any time period, as long as the user maintains an account [health factor](./#whats-a-health-factor) above 1.00. If the accounts health factor falls below 1.00, the accounts loans can be [liquidated](./#what-is-liquidation) by another protocol participant until their account health factor increases to 1.02.
+Loans can be taken out for any time period, as long as the user maintains an account [health factor](./#whats-a-health-factor) above 1.00. If the accounts health factor falls below 1.00, the accounts loans can be [liquidated](liquidations.md) by another protocol participant until their account health factor increases to 1.02.
 
 When a lender deposits money in the YieldBlox protocol, they receive pool tokens that act as a certificate of deposit. These tokens track the [proportion of the pools lending balance](../../technical-docs/math.md#pool-token-issuance) that the user owns. Users can burn these token at any time to withdraw their lent assets and all accrued interest.
 
