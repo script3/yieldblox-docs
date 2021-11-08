@@ -2,7 +2,7 @@
 
 ## What is a liquidation?
 
-If a borrower's loan becomes undercollateralized \(their [health factor](./#whats-a-health-factor) falls below 1.00\), another protocol user can repay a portion of the borrower's debt in exchange for a portion of their collateral. This is known as [liquidation](../../technical-docs/math.md#maximum-liquidation-amount). 
+If a borrower's loan becomes undercollateralized (their [health factor](./#whats-a-health-factor) falls below 1.00), another protocol user can repay a portion of the borrower's debt in exchange for a portion of their collateral. This is known as [liquidation](../../technical-docs/math.md#maximum-liquidation-amount).&#x20;
 
 ## When would a borrower be liquidated?
 
@@ -26,5 +26,4 @@ Yes, YieldBlox allows liquidators to use borrower's collateral to repay their de
 
 ## What if the liquidated borrower does not have sufficient collateral to support the liquidation incentive?
 
-In cases of extreme volatility, it is possible for the liquidation incentive to be impossible to pay out under normal market conditions. This could happen if the value of the user's liability increased drastically in a very short amount of time, or the value of the user's collateral fell rapidly. To ensure the undercollateralized loan is still liquidated, YieldBlox uses the [YBX backstop system](../../technical-docs/protocol.md#ybx-backstop). 
-
+In cases of extreme volatility, it is possible for the liquidation incentive to be impossible to pay out under normal market conditions. This could happen if the value of the user's liability increased drastically in a very short amount of time, or the value of the user's collateral fell rapidly. To ensure the undercollateralized loan is still liquidated, YieldBlox uses the [YBX backstop system](../../technical-docs/protocol/#ybx-backstop).&#x20;

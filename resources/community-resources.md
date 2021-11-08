@@ -2,15 +2,15 @@
 
 ### Website
 
-[script3.io](www.script3.io%20)
+[script3.io](https://www.script3.io)
 
 ### Contact
 
-email: support@script3.io 
+email: support@script3.io&#x20;
 
 ### Blog
 
-[Medium](https://script3.medium.com/)
+[Medium](https://script3.medium.com)
 
 ### Social Media
 
@@ -19,4 +19,3 @@ email: support@script3.io
 [Discord](https://discord.gg/XQ6YS5usCe)
 
 [Keybase](https://keybase.io/team/script3)
-

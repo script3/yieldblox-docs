@@ -26,11 +26,27 @@
 ## Technical Docs
 
 * [Math](technical-docs/math.md)
-* [Protocol](technical-docs/protocol.md)
+* [YieldBlox Protocol Assets](technical-docs/yieldblox-protocol-assets.md)
+* [User Positions](technical-docs/user-positions.md)
+* [Interest Rates](technical-docs/interest-rates.md)
+* [Underlying Asset Data](technical-docs/underlying-asset-data.md)
+* [Average Utilization Ratios](technical-docs/average-utilization-ratios.md)
+* [YBX Issuance](technical-docs/ybx-issuance.md)
+* [Protocol Accounts](technical-docs/protocol-accounts.md)
+* [Smart Contracts/Architecture](technical-docs/protocol/README.md)
+  * [Mint Contract](technical-docs/protocol/mint-contract.md)
+  * [Burn Contract](technical-docs/protocol/burn-contract.md)
+  * [Repay Contract](technical-docs/protocol/repay-contract.md)
+  * [Liquidate Contract](technical-docs/protocol/liquidate-contract.md)
+  * [Rate Contract](technical-docs/protocol/rate-contract.md)
+  * [Claim Contract](technical-docs/protocol/claim-contract.md)
+  * [Staking Contract](technical-docs/protocol/staking-contract.md)
+  * [Governance Contract](technical-docs/protocol/governance-contract.md)
+  * [Vote Contract](technical-docs/protocol/vote-contract.md)
+* [YieldBlox Turrets](technical-docs/yieldblox-turrets.md)
 
 ## Resources
 
 * [Technical Resources](resources/technical-resources.md)
 * [Community Resources](resources/community-resources.md)
 * [Brand Assets](resources/brand-assets.md)
-

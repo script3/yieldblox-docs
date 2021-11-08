@@ -12,11 +12,10 @@ An assets [utilization ratio](../../technical-docs/math.md#utilization-ratio-cal
 
 Users can change their interest rates from fixed to floating or vice versa at any time. To do so, a user will go to their Profile page and find their borrowed positions. Once they select the 'Type' edit button, they will be notified they are switching interest types. Then they confirm this switch.
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![](<../../.gitbook/assets/image (7).png>)
 
-A loan's fixed rate can be force rebalanced up to the current stable rate if the loan's rate has fallen below the market floating rate. 
+A loan's fixed rate can be force rebalanced up to the current stable rate if the loan's rate has fallen below the market floating rate.&#x20;
 
-## Where do the interest rates go?
+## Where do the interest fees go?
 
-Most \(90%\) of the interest rate fees are sent directly to the lending pool to be distributed to protocol lenders. Lenders will withdraw these fees when they burn their pool tokens. The remaining 10% of fees are used to repurchase YBX tokens on the Stellar DEX, which are redistributed to YBX Stakers. This repurchasing is necessary to support the [YBX backstop](../../technical-docs/protocol.md#ybx-backstop).
-
+Most (50-90%) of the interest rate fees are sent directly to the lending pool to be distributed to protocol lenders. Lenders will withdraw these fees when they burn their pool tokens. The remaining 10% of fees are used to repurchase YBX tokens on the Stellar DEX, which are redistributed to YBX Stakers. This repurchasing is necessary to support the [YBX backstop](../../technical-docs/protocol/#ybx-backstop).

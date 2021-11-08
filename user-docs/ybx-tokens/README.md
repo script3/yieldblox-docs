@@ -26,11 +26,11 @@ Yes. The main way to receive YBX tokens is to [lend](../lending-borrowing/) or b
 
 ## What can I do with YBX tokens?
 
-Users can [stake](../staking.md) YBX tokens in exchange for sYBX. sYBX allows users to earn a portion of protocol fees as well as [vote](../governance.md#how-does-voting-work) on and create governance [proposals](../governance.md#how-are-protocol-change-proposals-created). 
+Users can [stake](../staking.md) YBX tokens in exchange for sYBX. sYBX allows users to earn a portion of protocol fees as well as [vote](../governance.md#how-does-voting-work) on and create governance [proposals](../governance.md#how-are-protocol-change-proposals-created).&#x20;
 
 ## How are YBX tokens distributed?
 
-YBX tokens are distributed daily to users for [lending](../lending-borrowing/) or [borrowing](../lending-borrowing/#how-does-borrowing-work-on-yieldblox) on the YieldBlox protocol. Only users who have lent or borrowed originating more than a day before the distribution time are eligible for YBX token distribution on that date.
+YBX tokens are distributed daily to users for [lending](../lending-borrowing/), [borrowing](../lending-borrowing/#how-does-borrowing-work-on-yieldblox), or [staking](../staking.md) on the YieldBlox protocol. Only users who have lent or borrowed originating more than a day before the distribution time are eligible for YBX token distribution on that date.
 
 ![](<../../.gitbook/assets/distribution-scheme (4).svg>)
 
@@ -70,13 +70,13 @@ Where:\
 $$I=$$ the YBX issuance of the current period\
 $$T=$$ the total number of YBX tokens to be issued; 1,500,000,000\
 $$O=$$ the number of YBX tokens outstanding\
-$$R=$$ the YBX issuance rate; initially 0.01
+$$R=$$ the YBX issuance rate; initially 0.0075
 
 ## Is there an initial YBX token distribution?
 
-Yes, there will be an initial distribution of YBX tokens. This initial float of governance tokens is represented as $$A_0$$in the governance issuance equation above. The distribution will be a total of 690,000,000 YBX tokens. It will be distributed to the YieldBlox DAO, early contributors to the YieldBlox protocol, a bug bounty, marketing efforts, and Stellar ecosystem members! The initial team and investor token allocation will be locked for a year to ensure that the team and investors remain aligned with the long-term success of the protocol. The YieldBlox DAO Treasury allocation is directly controlled by the YieldBlox [governance system](../governance.md).
+Yes, there will be an initial distribution of YBX tokens. This initial float of governance tokens is represented as $$A_0$$in the governance issuance equation above. The distribution will be a total of 69,000,000 YBX tokens. It will be distributed to the YieldBlox DAO, early contributors to the YieldBlox protocol, a bug bounty, marketing efforts, and Stellar ecosystem members! The initial investor token allocation will be locked for a year, and the inital team allocation will be locked for 4 years following a linear unlock schedule with a one year cliff. The YieldBlox DAO Treasury allocation is directly controlled by the YieldBlox [governance system](../governance.md).
 
-After the initial distribution, the remaining 810,000,000 YBX tokens will be distributed to protocol lenders and borrowers. So overall, 92% of all YBX tokens will be distributed directly to the community! 
+After the initial distribution, the remaining 810,000,000 YBX tokens will be distributed to protocol lenders and borrowers. So overall, 92% of all YBX tokens will be distributed directly to the community!&#x20;
 
 ![](../../.gitbook/assets/ybx-allocation-final-3x.png)
 
