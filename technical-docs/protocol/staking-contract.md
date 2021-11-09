@@ -66,10 +66,6 @@ Users will stake and unstake through this contract. Staking periods are 3 month 
    6. Contract adds a `payment` operation where the pool pays the user all unstaked YBX.
 7. Turret builds transaction builder into an XDR and returns it along with a signature.
 
-### Diagram
-
-_**\*TODO Diagram\***_
-
 
 
 

@@ -25,7 +25,6 @@
 
 ## Technical Docs
 
-* [Math](technical-docs/math.md)
 * [YieldBlox Protocol Assets](technical-docs/yieldblox-protocol-assets.md)
 * [User Positions](technical-docs/user-positions.md)
 * [Interest Rates](technical-docs/interest-rates.md)
@@ -43,6 +42,7 @@
   * [Staking Contract](technical-docs/protocol/staking-contract.md)
   * [Governance Contract](technical-docs/protocol/governance-contract.md)
   * [Vote Contract](technical-docs/protocol/vote-contract.md)
+* [Math](technical-docs/math.md)
 * [YieldBlox Turrets](technical-docs/yieldblox-turrets.md)
 
 ## Resources

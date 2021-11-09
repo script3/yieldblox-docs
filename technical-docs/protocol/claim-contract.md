@@ -52,8 +52,4 @@ _**Fields:**_
    5. Contract adds Utilization Tracker operations. See Average Utilization Ratios section.
 6. Turret builds transaction builder into an XDR and returns it along with a signature.
 
-### Diagram
-
-_**\*TODO Diagram\***_
-
 ###

@@ -1,3 +1,5 @@
 # YieldBlox Turrets
 
-Coming Soon
+Coming Soon!
+
+![](../.gitbook/assets/tee-100.jpg)
