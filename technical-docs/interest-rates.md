@@ -4,7 +4,7 @@ YieldBlox interest rates are calculates using 4 different slopes that step up as
 
 ### Interest Rate Curve Graphs:
 
-![Note: these numbers may change](<../.gitbook/assets/image (20).png>)
+![Note: these numbers may change](<../.gitbook/assets/image (20) (1).png>)
 
 ![Note: these numbers may change](<../.gitbook/assets/image (24).png>)
 

@@ -30,13 +30,11 @@ Users can [stake](../staking.md) YBX tokens in exchange for sYBX. sYBX allows us
 
 ## How are YBX tokens distributed?
 
-YBX tokens are distributed daily to users for [lending](../lending-borrowing/), [borrowing](../lending-borrowing/#how-does-borrowing-work-on-yieldblox), or [staking](../staking.md) on the YieldBlox protocol. Only users who have lent or borrowed originating more than a day before the distribution time are eligible for YBX token distribution on that date.
+YBX tokens are distributed daily to users for [lending](../lending-borrowing/), [borrowing](../lending-borrowing/#how-does-borrowing-work-on-yieldblox), or [staking](../staking.md) on the YieldBlox protocol. **Only lenders who collateralize the lent asset are eligible for YBX issuance.**
 
 ![](<../../.gitbook/assets/distribution-scheme (4).svg>)
 
-The YBX issuance equation is used to calculate the number of YBX tokens to distribute. Once this equation finds this distribution number, each lending pool will get a percentage of YBX tokens to be allocated based on that pool's assets' allocation percentages. Each asset's allocation percentage is a set constant controlled by YBX token holders. After a pool knows their asset's allocation percentage, YBX tokens are distributed to the lenders and borrowers of that pool on a proportion equal to the asset percentage they contributed to that pool.
-
-
+The YBX issuance equation is used to calculate the number of YBX tokens to distribute. Once this equation finds this distribution number, each lender, borrower, or staker will be allocated a percentage of YBX tokens based on the lender or borrowing issuance allocation percentage for an asset. Each asset's issuance allocation percentage is a set constant controlled by YBX token holders. After the protocol knows an assets lending and borrowing allocation percentage, lenders or borrowers of that asset can claim YBX tokens proportionally based on the percent of all lending or borrowing they contribute for that asset. It should be noted that YBX issuanct to stakers is sent directly to the staking pool where it is claimed after the user unlocks their YBX stake. See the Technical Documentation on YBX Issuance for more information on how this process functions.&#x20;
 
 _**Example visualized:**_
 
@@ -44,15 +42,15 @@ A user lent or borrowed on YieldBlox the week prior to _date x_. The issuance eq
 
 ![](../../.gitbook/assets/issuance-example-simple.svg)
 
-Now there are 100,000 YBX tokens to be allocated. Let's say there are four lending pools on YieldBlox at the start of _date x_, and they all have equal allocation percentages (25%). The user is in _Pool 1_, and they contributed 5% of the total assets in _Pool 1_. Then the total number of YBX tokens the user would receive is:
+Now there are 100,000 YBX tokens to be allocated. Let's say there are four assets being lent in YieldBlox on _date x_, and they all have equal allocation percentages (25%) (in this example we assume no issuance is directed to stakers or borrowers). The user is lending and collteralizing _Asset 1_, and they contributed 5% of the total amount of Asset_ 1_ lent and collateralized. Then the total number of YBX tokens the user would be eligible to claim is:
 
-(YBX-issued) \* (Pool 1's allocation percentage) \* (User percentage contributed to Pool 1)
+(YBX-issued) \* (Lending Asset 1's allocation percentage) \* (User percentage contributed to the lent and collateralized amount of asset 1)
 
 \= (100,000) \* (25%) \* (5%)
 
 \= 1,250 YBX tokens
 
-![](../../.gitbook/assets/issuance-example.svg)
+![](<../../.gitbook/assets/image (20).png>)
 
 The user in this example would receive 1,250 YBX tokens on the distribution date of _date x_. These numbers are for explanatory purposes and may or may not reflect real YBX token issuance.
 
@@ -79,6 +77,14 @@ Yes, there will be an initial distribution of YBX tokens. This initial float of 
 After the initial distribution, the remaining 810,000,000 YBX tokens will be distributed to protocol lenders and borrowers. So overall, 92% of all YBX tokens will be distributed directly to the community!&#x20;
 
 ![](../../.gitbook/assets/ybx-allocation-final-3x.png)
+
+## How much YBX will be in Circulation?
+
+Below is a visual of circulating YBX for the first five years. It includes YieldBlox app issuance, initial investor issuance, team issuance, and the YBX airdrop. While not included, the YieldBlox DAO Treasury, bug bounty, and partnership treasury allocations account for 37.33% of total YBX.
+
+**Please Note: **This is a "pessimistic" estimate as it assumes no YBX issuance will be paid to YBX stakers. Which likely will not be the case.
+
+![](<../../.gitbook/assets/image (23).png>)
 
 ## Will there be a YBX airdrop?
 

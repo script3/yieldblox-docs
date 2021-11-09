@@ -15,7 +15,7 @@ YBX's tokenomics model has five levels of asset productivity protocol participan
 
 The foundation of YBX tokenomics is the [YBX distribution mechanism](./#how-do-i-get-ybx-tokens) that awards lenders and borrowers YBX for lending and borrowing using YieldBlox. This on-ramps new users into the ecosystem and ensures the protocol will always have high levels of liquidity. YBX incentives decrease logarithmically over time, so users should start using YieldBlox as soon as possible!
 
-![](https://lh3.googleusercontent.com/OcNknwWBZkozQ2yzhUVEkU08RBNcW30qNjWrSs-\_9lxpyS\_zzYbBVMYvlrNSO677kirK1Tb9-76USS5M5W85zk14S4a2swSqUAzVDFzGwGIHHTSdr43O1OpWav44s9Tx0vg9cgd3alE)
+![](<../../.gitbook/assets/image (19).png>)
 
 ### Level 1: Users can stake YBX to earn a portion of YieldBlox protocol revenue.
 

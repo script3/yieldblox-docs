@@ -25,7 +25,7 @@ _**Fields:**_
 * proposalAccount: account ID of the proposal being voted on
 * votes: array of user votes
   * If user is voting on a non-allocation update the assetCode will be YES or NO
-  * If user is voting on an allocation update the assetCode will be a liability token or pool asset
+  * If user is voting on an allocation update the assetCode will be a liability token code, pool token code, or YBX
   * amount is the number of votes the user wishes to cast
 * allocation updates: true if the user is voting for an allocation update. False if they are not
 
