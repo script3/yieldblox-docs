@@ -24,7 +24,4 @@ where:
 * YBX fee allocation: Percent of interest rate fees that are used to repurchase YBX. Multiplied by 100 before being encoded.
 * Price Feed: Price feed this underlying asset uses. Possible price feeds are DEX+Coinbase, DEX+Binance, DEX+FTX, DEX+Coinbase+Binance, DEX+Coinbase+FTX, and DEX+Binance+FTX. Encoded as an enum.
 * Underlying asset ticker: The ticker used in these price feeds.
-* ![](../.gitbook/assets/tee-100.jpg): ScripTee
-
-
 
