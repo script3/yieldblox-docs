@@ -12,7 +12,7 @@ This is the YieldBlox documentation page. Your place for all things related to t
 
     Information on how the protocol works, answers to questions you may have, and useful visuals\
 
-* Technical Documentation\
+* [Technical Documentation](broken-reference)\
   Protocol entities, equations, and protocol information\
 
 * [Resources](resources/technical-resources.md)\

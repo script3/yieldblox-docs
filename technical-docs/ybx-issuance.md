@@ -34,5 +34,10 @@ YBX issuance for the position equals:&#x20;
 
 ((50,000\*(1000-750)+100,000\*(1250-1000))/(1250-750))\*.0006+100,000\*.00065+100,000\*.00075 = 185
 
-Astute observers will have noticed that this can result in users missing out on a small amount of issuance if they modify a position many times during one issuance period. This is an unfortunate side effect of us being unable to overload the Claim contract with API calls. We're hopeful that we can improve this system in the future so that this will no longer be a possibility.
+Astute observers will have noticed this can result in users missing out on a small amount of issuance if they modify a position many times during one issuance period. This is an unfortunate side effect of us being unable to overload the Claim contract with API calls. We're hopeful that we can improve this system in the future so that this will no longer be a possibility.
 
+### Circulating YBX
+
+Below is a visual of circulating YBX for the first five years. It includes YieldBlox app issuance, initial investor issuance, team issuance, and the YBX airdrop. While not included, the YieldBlox DAO Treasury, bug bounty, and partnership treasury allocations account for 37.33% of total YBX.&#x20;
+
+![](<../.gitbook/assets/ybx circulating 5year@3x.png>)
