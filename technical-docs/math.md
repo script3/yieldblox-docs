@@ -315,7 +315,7 @@ $$R =$$the total YBX issuance rate; initially 0.0075
 Used to calculate how much YBX to issue per liability or pool token&#x20;
 
 $$
-R =(A*T)/O
+R =\frac{A*T}{O}
 $$
 
 Where:
@@ -332,10 +332,10 @@ Used to calculate the pessimistic block-average position size for a given collat
 
 
 $$
-S =((S_1*(b_2-b_1))+(S_0*(b_1-b_0)))/(b_2-b_0)
+S =\frac{S_1*(b_2-b_1)+S_0*(b_1-b_0)}{(b_2-b_0)}
 $$
 
-Where:
+Where:
 
 $$S=$$the positions pessimistic block-weighted average size\
 $$S_1=$$the most recent position size\
