@@ -240,7 +240,6 @@ Where:\
 $$A =$$the amount of the asset paid out\
 $$B =$$the asset balance in the pool\
 $$L =$$the total number of liability tokens outstanding\
-$$T_b =$$the number of pool tokens burned\
 $$T_t =$$the total number of pool tokens
 
 
