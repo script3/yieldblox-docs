@@ -52,6 +52,8 @@ Other data entries
   * The withdrawal fee the protocol takes when users withdraw their assets
 * `YieldBlox Contract Hash:{Contract Hash}`
   * The hash of the YieldBlox Contract uploaded to its signing turrets. Allows users to verify that the contract is the expected one
+* `YBX_Total_Supply:{total ybx supply}`
+  * The total supply of YBX (currently 1.5 billion)
 
 ### Issuing Account:&#x20;
 
