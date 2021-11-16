@@ -85,8 +85,6 @@ Every application ever created has some risk. With YieldBlox, the risks are smar
 
 ## YieldBlox Roadmap (General)
 
-Below is a high-level roadmap of what the Script3 team has planned for the YieldBlox protocol throughout the rest of 2021.
+Below is a high-level roadmap of what the Script3 team has planned for the YieldBlox protocol.
 
-![](<../.gitbook/assets/Script3 Roadmap@3x.png>)
-
-###
+![](../.gitbook/assets/roadmap2@3x.png)
