@@ -1,6 +1,6 @@
 # Lending & Borrowing
 
-![](../../.gitbook/assets/lending-header.svg)
+![](<../../.gitbook/assets/lending header.svg>)
 
 Lending and borrowing are the core functionalities of YieldBlox. Users can deposit assets into the YieldBlox protocol where they are lent to a variety of borrowers. Borrowers pay interest to the protocol which is distributed to lenders.
 

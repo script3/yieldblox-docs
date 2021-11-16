@@ -12,7 +12,7 @@ An assets [utilization ratio](../../technical-docs/math.md#utilization-ratio-cal
 
 Users can change their interest rates from fixed to floating or vice versa at any time. To do so, a user will go to their Profile page and find their borrowed positions. Once they select the 'Type' edit button, they will be notified they are switching interest types. Then they confirm this switch.
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (13).png>)
 
 A loan's fixed rate can be force rebalanced up to the current stable rate if the loan's rate has fallen below the market floating rate.&#x20;
 

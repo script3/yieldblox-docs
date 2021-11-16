@@ -1,6 +1,6 @@
 # YieldBlox Documentation
 
-![](.gitbook/assets/logo-black-text.svg)
+![](<.gitbook/assets/Logo - black text.svg>)
 
 ### Welcome!
 

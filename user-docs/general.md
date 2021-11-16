@@ -1,6 +1,6 @@
 # General
 
-![](../.gitbook/assets/general-header.svg)
+![](<../.gitbook/assets/general header.svg>)
 
 ## What is YieldBlox?
 
@@ -87,6 +87,6 @@ Every application ever created has some risk. With YieldBlox, the risks are smar
 
 Below is a high-level roadmap of what the Script3 team has planned for the YieldBlox protocol throughout the rest of 2021.
 
-![](../.gitbook/assets/script3-roadmap-3x.png)
+![](<../.gitbook/assets/Script3 Roadmap@3x.png>)
 
 ###

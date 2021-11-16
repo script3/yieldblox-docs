@@ -69,7 +69,7 @@ User repayments are handled using the Repay contract. Collateral can be withdraw
 
 ### Diagram
 
-![](<../../.gitbook/assets/image (21).png>)
+![](<../../.gitbook/assets/image (23).png>)
 
 #### In the base repayment scenario (no repay with collateral)
 

@@ -42,6 +42,6 @@ _**Fields:**_
 
 ### Diagram
 
-![](<../../.gitbook/assets/image (19) (1).png>)
+![](<../../.gitbook/assets/image (21).png>)
 
 **User Account:  **The** **pool claims the liability claimable balance and recreates it with a floating interest rate.

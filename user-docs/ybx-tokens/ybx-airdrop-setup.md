@@ -24,15 +24,15 @@ A trustline can also be established if a user prefers a [Freighter](https://www.
 * Verify the issuing domain is [https://script3.io/](https://script3.io)
 * Select the _Add Asset_ button in the top right corner.
 
-![](../../.gitbook/assets/screen-shot-2021-09-08-at-9.33.33-am.png)
+![](<../../.gitbook/assets/Screen Shot 2021-09-08 at 9.33.33 AM (1).png>)
 
 * A pop-up will appear asking if you wish to add the asset, select _Add_.
 
-![](../../.gitbook/assets/screen-shot-2021-09-08-at-9.35.59-am.png)
+![](<../../.gitbook/assets/Screen Shot 2021-09-08 at 9.35.59 AM.png>)
 
 * YBX should then show up in your assets, and you have successfully established a YBX trustline with your LOBSTR wallet!
 
-![](../../.gitbook/assets/screen-shot-2021-09-08-at-9.36.42-am.png)
+![](<../../.gitbook/assets/Screen Shot 2021-09-08 at 9.36.42 AM.png>)
 
 * Celebrate with pizza :pizza:&#x20;
 

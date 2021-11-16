@@ -44,6 +44,6 @@ The burn contract is used to exchange pool tokens for the underlying assets they
 
 ### Diagram
 
-![Diagram may be out of daye](<../../.gitbook/assets/image (23) (1).png>)
+![Diagram may be out of daye](<../../.gitbook/assets/image (26).png>)
 
 **Account A: **Lends 2,000 XLM and receives 2,000 y00XLM. Pool takes in 3,000 XLM in fees over the course of time. Account A now decides to withdraw and burn pool tokens in return for the underlying asset. The proportion of the liquidity provided is returned as well as a proportion of interest.

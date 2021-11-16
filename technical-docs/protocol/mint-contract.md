@@ -68,7 +68,7 @@ Lending, collateralizations, and borrowing take place through the Mint contract.
 
 ### Diagram
 
-![Diagram may be out of date](<../../.gitbook/assets/image (25).png>)
+![Diagram may be out of date](<../../.gitbook/assets/image (28).png>)
 
 **Lender A: **Lends 50,000 XLM to the pool and receives 50,000 y00XLM in exchange. Lender A can burn these tokens later when the pool has accumulated fees and receive their proportion of the pool back.
 

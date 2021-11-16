@@ -1,6 +1,6 @@
 # Why Stellar?
 
-![](../.gitbook/assets/why-stellar-header.svg)
+![](<../.gitbook/assets/why stellar header (1).svg>)
 
 ## Stellar & YieldBlox
 
@@ -41,7 +41,7 @@ The Stellar network has some key characteristics which YieldBlox takes advantage
 
 ## Stellar's Security Features
 
-![](../.gitbook/assets/stellar-security.svg)
+![](<../.gitbook/assets/stellar security.svg>)
 
 YieldBlox uses Stellar's security features to ensure loans and collateral accounts associated with the protocol are safe from risks.
 

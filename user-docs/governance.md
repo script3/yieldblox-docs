@@ -1,6 +1,6 @@
 # Governance
 
-![](<../.gitbook/assets/governance-header (1).svg>)
+![](<../.gitbook/assets/governance header (1).svg>)
 
 ## How does governance work on YieldBlox?
 

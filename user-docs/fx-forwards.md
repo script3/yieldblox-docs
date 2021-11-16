@@ -1,6 +1,6 @@
 # FX Forwards
 
-![](../.gitbook/assets/fx-forwards-header.svg)
+![](<../.gitbook/assets/fx forwards header.svg>)
 
 ## What's an FX forward?
 
