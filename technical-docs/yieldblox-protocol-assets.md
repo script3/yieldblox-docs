@@ -9,7 +9,7 @@ Where:
 * Token Key: Character that identifies protocol asset
   * y = Pool Token
   * l = Liability Token
-  * u = Utilization Tracker Token
+  * i = Accrued Interest Tracker Token
   * a = Pool Issuance Ratio Tracker Token
   * b = Liability Issuance Ratio Tracker Token
 * Underlying Asset Issuer Key: base 64 character that identifies the issuer of the underlying asset associated with the protocol token. It corresponds to a pool data entry that holds the issuer account id.
@@ -27,11 +27,11 @@ Liability Tokens are used to track user borrowing liabilities. 1 Liability Token
 
 Sample Asset Code for an XLM liability token: `l00XLM`&#x20;
 
-#### Utilization Tracker Tokens
+#### Accrued Interest Tracker Tokens
 
-Utilization tracker tokens are used to track the utilization ratio of underlying assets over time. This is done by paying them to utilization tracker accounts in the process outlined in the [Utilization Ratios section](average-utilization-ratios.md).
+Accrued interest tracker tokens are used to track the interest accrued to outstanding underlying asset liabilities over time. This is done by paying them to accrued interest tracker accounts in the process outlined in the [Accrued Interest Tracking section](accrued-interest-tracking.md).
 
-Sample Asset Code for an XLM utilization tracker token: `u00XLM`&#x20;
+Sample Asset Code for an XLM utilization tracker token: `i00XLM`&#x20;
 
 #### Pool Issuance Ratio Tokens
 

@@ -29,7 +29,7 @@
 * [User Positions](technical-docs/user-positions.md)
 * [Interest Rates](technical-docs/interest-rates.md)
 * [Underlying Asset Data](technical-docs/underlying-asset-data.md)
-* [Average Utilization Ratios](technical-docs/average-utilization-ratios.md)
+* [Accrued Interest Tracking](technical-docs/accrued-interest-tracking.md)
 * [YBX Issuance](technical-docs/ybx-issuance.md)
 * [Protocol Accounts](technical-docs/protocol-accounts.md)
 * [Smart Contracts/Architecture](technical-docs/protocol/README.md)

@@ -2,8 +2,6 @@
 
 Calculations used in the YieldBlox protocol.
 
-
-
 ## Utilization Ratio Calculations
 
 ### Utilization Ratio
@@ -16,7 +14,7 @@ $$
 
 Where:\
 $$U=$$the Utilization ratio\
-$$L=$$the total number of liability tokens\
+$$L=$$liabilities outstanding ([see](math.md#liabilities-outstanding))\
 $$B=$$the total balance of the pool\
 
 
@@ -38,7 +36,7 @@ $$b_o=$$the loan origination block
 
 
 
-### Utilization Tracker Delta
+### Utilization Tracker Delta \*depreciated\*
 
 Used to calculate the utilization tracker delta of a transaction. This allows the protocol to measure an asset's average utilization ratio over a period of time.
 
@@ -55,7 +53,7 @@ $$b_{i-1}=$$the block of the second-to-last utilization-modifying transaction
 
 
 
-### Utilization Adjustment
+### Utilization Adjustment \*depreciated\*
 
 Used to calculate the necessary utilization ratio delta adjustment.
 
@@ -76,7 +74,7 @@ $$U_{ai} =$$the utilization adjustment payment of the last utilization-modifying
 
 
 
-### Average Utilization Ratio
+### Average Utilization Ratio \*depreciated\*
 
 Used to calculate the average utilization ratio for a loan.
 
@@ -96,6 +94,74 @@ $$U =$$the current utilization ratio\
 $$b_c =$$the current block
 
 
+
+## Accrued Interest Tracker Updates
+
+Used to calculate accrued interest tracker updates
+
+$$
+I_u = (b_i-b_{i-1})(\frac{I(U)}{b_y}B)
+$$
+
+$$I_u=$$ Accrued interest tracker update amount
+
+$$b_i=$$The block the last accrued interest tracker update occured on
+
+$$b_{i-1}=$$The block the accrued interest tracker update before last occured on
+
+$$I(U)=$$Interest Rate (see [equation](math.md#interest-rate-calculations))
+
+$$b_y=$$Average blocks per year. Hardcoded variable. Assumed to be 6,307,200 (5-sec ledger close time).
+
+$$B=$$Accrued interest tracker balance&#x20;
+
+## Liability Token Calculations
+
+Equations used to calculate the value of liability tokens and user liabilities.
+
+### Liability Tokens Issued
+
+The number of liability tokens issued to a user when they borrow from the pool.
+
+$$
+L = \frac{B}{I_b+I_u}
+$$
+
+$$L=$$ liability tokens issued
+
+$$B=$$ Borrow amount
+
+$$I_b=$$ Accrued Interest tracker balance for the asset being borrowed
+
+$$I_u=$$ Estimated next accrued interest tracker balance
+
+### Liability Token Value
+
+The value of a single liability token. Used when calculating the value of a user's liability.
+
+$$
+V = I_b+I_u
+$$
+
+$$V=$$ The value of a liability token
+
+$$I_b=$$ Accrued Interest tracker balance for the asset being borrowed
+
+$$I_u=$$ Estimated next accrued interest tracker balance
+
+### Liabilities Outstanding
+
+Liabilities Outstanding for a given asset
+
+$$
+L_o = T_o*V
+$$
+
+$$L_o =$$liabilities outstanding
+
+$$T_o =$$liability tokens outstanding
+
+$$V =$$liability token value
 
 ## Interest Rate Calculations
 
@@ -211,7 +277,9 @@ $$\bar {F} =$$the average liquidation factor of the selected collateral types
 
 
 
-## Pool Token Issuance
+## Pool Token Calculations
+
+### Pool Token Issuance
 
 Used to calculate the number of pool tokens issued to a user account.
 
@@ -228,7 +296,7 @@ $$L =$$the current number of outstanding liability tokens
 
 
 
-## Pool Token Value
+### Pool Token Value
 
 Used to calculate the value of a pool token
 
@@ -237,7 +305,7 @@ A =  \frac {(B+L)} {T_t}
 $$
 
 Where:\
-$$A =$$the amount of the asset paid out\
+$$V =$$the value of a pool token\
 $$B =$$the asset balance in the pool\
 $$L =$$the total number of liability tokens outstanding\
 $$T_t =$$the total number of pool tokens
@@ -348,15 +416,15 @@ $$b_0 =$$the greater of the block of the last issuance update payment prior to t
 
 
 
-## YBX Backstop Amount
+## YieldBlox Default Protection Amount
 
-Used to calculate how much of the user's liability should be repaid with the YBX backstop.
+Used to calculate how much of the user's liability should be taken on as pool debt as part of the Default Protection Program.
 
 $$
 R =V_l - \frac {V_c} {\bar {I_a}}
 $$
 
-$$R =$$the YBX backstop repayment amount\
+$$R =$$the YieldBlox Default Protection amount\
 $$V_l =$$the liability value\
 $$V_c =$$the collateral value\
 $$\bar {I_a} =$$the average liquidation incentive for the account's collateral balances
