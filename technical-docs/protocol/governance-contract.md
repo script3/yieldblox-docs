@@ -18,7 +18,7 @@ Governance Proposals are submitted and managed using the Governance Contract. Go
 }
 ```
 
-_** Fields:**_
+&#x20;_**Fields:**_
 
 * Operation: 'PROPOSE'
 * proposalAccountKeypair: The keypair of the proposal account that will be created

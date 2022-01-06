@@ -43,7 +43,7 @@ Other data entries
 * `Governance_Proposal_Quorum_Threshold:{Threshold}`
   * Governance proposal voting quorum needed to pass a governance proposal
 * `Genesis YBX Outstanding:{gYBX outstanding}`
-  * The founding team was issued gYBX on their stakes rather than sYBX. This does not come with staking rewards but does have voting power
+  * The founding team was issued gYBX on their stakes rather than veYBX. This does not come with escrow rewards but does have voting power
 * `Genisis YBX Expiration:{expiration timestamp}`
   * The founding team's gYBX expires after one year. The protocol checks this timestamp because after that year it will no longer take gYBX into account when calculating outstanding voting power or user voting power.
 * `YBX_Issuance_Rate:{daily issuance rate}`
@@ -67,11 +67,11 @@ Publick Key:`GCZIXLOVS6CCBSIORWL5Y3HYZJRUQ65UEHF3SNIZZH6OPN54YXH4AJGX`
 
 The YBX distribution account receives issued YBX from the YBX issuing account and pays it out to users when they run the CLAIM smart contract.
 
-### Staking Pool:
+### Escrow Pool:
 
 Public Key:  `GBU2XXS7XGQ34OSJ4QI3DRFIGXI53ROLA77IXPSVXJ4KSWV5VYUJG2PA`
 
-The YBX staking pool holds YBX rewards that are paid out to YBX stakers and used in the default protection events. It also issues sYBX and vYBX.&#x20;
+The YBX escrow pool holds YBX rewards that are paid out to YBX escrows and used in the default protection events. It also issues veYBX and vYBX.&#x20;
 
 ### Utilization Tracker Accounts&#x20;
 

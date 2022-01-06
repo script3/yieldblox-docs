@@ -26,7 +26,7 @@ To provide an example, we'll outline the utilization delta payment of a sample t
     * XLM Utilization Ratio: .5
 * **Transaction 99: Block 1100 - Borrowing XLM**
   * Details irrelevant
-* **Transaction 100: Block irrelevant - Borrowing XLM **
+* **Transaction 100: Block irrelevant - Borrowing XLM**&#x20;
   * Details irrelevant
   *   Accrued Interest Payment
 
@@ -73,7 +73,7 @@ To provide an example, we'll outline the accrued interest correction payment of 
     * XLM Liabilities: 100 XLM&#x20;
     * Utilization Ratio: .5
     * Accrued interest tracker balance: 1000.02
-* **Transaction 99 - Block 1010 - Borrows XLM **
+* **Transaction 99 - Block 1010 - Borrows XLM**&#x20;
   * Protocol state pre-transaction 99
     * Pool Balance: 100 XLM
     * &#x20;XLM Liabilities: 100 XLM
@@ -89,7 +89,7 @@ To provide an example, we'll outline the accrued interest correction payment of 
     * XLM Liabilities: 100 XLM&#x20;
     * Utilization Ratio: .5
     * Accrued interest tracker balance: 1000.022
-* **Transaction 100 - Borrows XLM  **
+* **Transaction 100 - Borrows XLM** &#x20;
   * Protocol state pre-transaction 100
     * Accrued interest tracker balance: 1000.022
     * Other information irrelevant

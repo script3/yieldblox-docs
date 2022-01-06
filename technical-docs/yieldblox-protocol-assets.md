@@ -19,7 +19,7 @@ Where:
 
 Pool tokens are used to track user deposits in the YieldBlox protocol. They represent proportional ownership of a YieldBlox lending pool. Their value is calculated using the Pool Token Value equation ([see math section](math.md#pool-token-value)). Users receive them when they deposit assets into a lending pool and burn them when they withdraw assets from a lending pool.
 
-Sample Asset Code for an XLM pool token: `y00XLM `
+Sample Asset Code for an XLM pool token: `y00XLM`&#x20;
 
 **Liability Tokens**
 
@@ -47,8 +47,8 @@ Sample Asset Code for an XLM liability issuance ratio token: `b00XLM`&#x20;
 
 #### vYBX
 
-vYBX is issued to sYBX stakers to allow them to vote on governance proposals. Their maximum vYBX allowance is the amount of sYBX they hold. vYBX is non-transferable by the user.
+vYBX is issued to veYBX escrows to allow them to vote on governance proposals. Their maximum vYBX allowance is the amount of veYBX they hold. veYBX is non-transferable by the user.
 
 #### gYBX
 
-gYBX is issued to the YieldBlox founders instead of sYBX. gYBX has voting power but, it does not receive staking rewards like sYBX does.
+gYBX is issued to the YieldBlox founders instead of veYBX. gYBX has voting power but, it does not receive YBX issuanc to escrows like veYBX does.

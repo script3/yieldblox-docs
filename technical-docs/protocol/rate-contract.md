@@ -44,4 +44,4 @@ _**Fields:**_
 
 ![](<../../.gitbook/assets/image (21).png>)
 
-**User Account:  **The** **pool claims the liability claimable balance and recreates it with a floating interest rate.
+**User Account:**  The **** pool claims the liability claimable balance and recreates it with a floating interest rate.

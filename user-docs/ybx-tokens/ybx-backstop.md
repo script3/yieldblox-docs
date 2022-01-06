@@ -14,4 +14,4 @@ YBX Default Protection ensures [liquidations](../lending-borrowing/liquidations.
 
 ## How does YBX Default Protection protect FX forward settlement?
 
-YBX Default Protection ensures [FX Forwards](../fx-forwards.md) are always correctly settled. Suppose a forward contract party fails to settle their leg of a forward. In this case, YieldBlox will attempt to trade the delinquent user’s collateral and the settled legs capital (provided by the other party in the forward) for the required settlement assets on the DEX. If high slippage makes this trade impossible, the protocol will also sell YBX to reach the required settlement asset amount.
+YBX Default Protection ensures [FX Forwards](broken-reference) are always correctly settled. Suppose a forward contract party fails to settle their leg of a forward. In this case, YieldBlox will attempt to trade the delinquent user’s collateral and the settled legs capital (provided by the other party in the forward) for the required settlement assets on the DEX. If high slippage makes this trade impossible, the protocol will also sell YBX to reach the required settlement asset amount.

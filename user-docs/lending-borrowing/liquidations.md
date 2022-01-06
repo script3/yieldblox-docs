@@ -26,4 +26,4 @@ Yes, YieldBlox allows liquidators to use borrower's collateral to repay their de
 
 ## What if the liquidated borrower does not have sufficient collateral to support the liquidation incentive?
 
-In cases of extreme volatility, it is possible for the liquidation incentive to be impossible to pay out under normal market conditions. This could happen if the value of the user's liability increased drastically in a very short amount of time, or the value of the user's collateral fell rapidly. To ensure the undercollateralized loan is still liquidated, YieldBlox uses the [YBX backstop system](../../technical-docs/protocol/#ybx-backstop).&#x20;
+In cases of extreme volatility, it is possible for the liquidation incentive to be impossible to pay out under normal market conditions. This could happen if the value of the user's liability increased drastically in a very short amount of time, or the value of the user's collateral fell rapidly. To ensure the undercollateralized loan is still liquidated, YieldBlox uses the [default protection](default-protection.md) system.&#x20;

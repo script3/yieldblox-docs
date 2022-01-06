@@ -73,8 +73,8 @@ User repayments are handled using the Repay contract. Collateral can be withdraw
 
 #### In the base repayment scenario (no repay with collateral)
 
-**User Account: **pays the pool 100 USDC and withdraws 345 yXLM from their collateral claimable balance (the pool claims it and pays it to the user). The pool deletes the user's liability claimable balance to reflect the repayment.
+**User Account:** pays the pool 100 USDC and withdraws 345 yXLM from their collateral claimable balance (the pool claims it and pays it to the user). The pool deletes the user's liability claimable balance to reflect the repayment.
 
-#### In the repay with collateral liquidation scenario <a href="in-the-repay-with-collateral-liquidation-scenario-1" id="in-the-repay-with-collateral-liquidation-scenario-1"></a>
+#### In the repay with collateral liquidation scenario <a href="#in-the-repay-with-collateral-liquidation-scenario-1" id="in-the-repay-with-collateral-liquidation-scenario-1"></a>
 
-**User Account: **withdraws 345 yXLM from their collateral claimable balance (the pool claims it and pays it to the user); this is then converted to XLM and sold for 102 USDC, which is paid to the pool. The pool deletes a portion of the liquidated user's liability claimable balance to reflect the repayment. The liquidated user's new liability balance will be 263.58 USDC, and their new collateral balance will be 901.635 y00XLM.
+**User Account:** withdraws 345 yXLM from their collateral claimable balance (the pool claims it and pays it to the user); this is then converted to XLM and sold for 102 USDC, which is paid to the pool. The pool deletes a portion of the liquidated user's liability claimable balance to reflect the repayment. The liquidated user's new liability balance will be 263.58 USDC, and their new collateral balance will be 901.635 y00XLM.

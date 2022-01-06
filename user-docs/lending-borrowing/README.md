@@ -2,7 +2,7 @@
 
 ![](<../../.gitbook/assets/lending header.svg>)
 
-Lending and borrowing are the core functionalities of YieldBlox. Users can deposit assets into the YieldBlox protocol where they are lent to a variety of borrowers. Borrowers pay interest to the protocol which is distributed to lenders.
+Lending and borrowing are the core functionalities of YieldBlox. Users can deposit assets into the YieldBlox protocol where they are lent to a variety of borrowers. Borrowers use their lent assets as collateral to borrow other assets. They pay interest to the protocol which distributes it to lenders.
 
 
 
@@ -23,8 +23,11 @@ Learn more about lending and borrowing on YieldBlox:
 * ****[**Liquidations**](liquidations.md)****\
   ****Describes what liquidations are and how they work on YieldBlox.\
   ****
-* ****[**Lines of Credit**](lines-of-credit.md)****\
-  ****How YieldBlox facilitates lines of credit.
+* **Proposed Future Features**
+  * **Isolated Lending Pools**
+  * **Token Delegation**
+  * ****[**Lines of Credit**](broken-reference)****\
+    ****How YieldBlox facilitates lines of credit.
 
 
 

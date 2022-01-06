@@ -82,8 +82,8 @@ Users use the liquidate contract to liquidate underwater accounts where the heal
 
 #### In the base liquidation scenario (no repay with collateral)
 
-**Liquidator Account: **pays the pool 236.42 USDC and withdraws 716.015 yXLM from the liquidatee's collateral claimable balance (the pool claims it and pays it to the user, then remakes the claimable balance). The pool deletes a portion of the liquidated user's liability claimable balance to reflect the repayment. The liquidated user's new liability balance will be 263.58 USDC, and their new collateral balance will be 901.635 y00XLM.
+**Liquidator Account:** pays the pool 236.42 USDC and withdraws 716.015 yXLM from the liquidatee's collateral claimable balance (the pool claims it and pays it to the user, then remakes the claimable balance). The pool deletes a portion of the liquidated user's liability claimable balance to reflect the repayment. The liquidated user's new liability balance will be 263.58 USDC, and their new collateral balance will be 901.635 y00XLM.
 
 #### In the repay with collateral liquidation scenario
 
-**Liquidator Account: **withdraws 716.015 yXLM from the liquidatee's collateral claimable balance (the pool claims it and pays it to the user, then remakes the claimable balance). This is then converted to XLM and sold for 236.42 USDC, which is paid to the pool. The pool deletes a portion of the liquidated user's liability claimable balance to reflect the repayment. The liquidated user's new liability balance will be 263.58 USDC, and their new collateral balance will be 901.635 y00XLM.
+**Liquidator Account:** withdraws 716.015 yXLM from the liquidatee's collateral claimable balance (the pool claims it and pays it to the user, then remakes the claimable balance). This is then converted to XLM and sold for 236.42 USDC, which is paid to the pool. The pool deletes a portion of the liquidated user's liability claimable balance to reflect the repayment. The liquidated user's new liability balance will be 263.58 USDC, and their new collateral balance will be 901.635 y00XLM.

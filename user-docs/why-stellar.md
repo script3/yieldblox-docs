@@ -84,7 +84,7 @@ Here are some non-native assets reputable third parties currently anchor:
 * **EURT**\
   Euro anchor provided by [Tempo](https://tempo.eu.com/home)\
 
-* **NGNT **\
+* **NGNT** \
   Nigerian naira anchor provided by [Cowrie](https://www.cowrie.exchange)\
 
 * **BRL**\

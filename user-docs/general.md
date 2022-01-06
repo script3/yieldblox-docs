@@ -4,27 +4,31 @@
 
 ## What is YieldBlox?
 
-YieldBlox is a decentralized finance (DeFi) protocol for lending and FX forwards built on [Stellar](https://www.stellar.org) using [Stellar Turrets](https://tss.stellar.org). The protocol has functions for [lending](lending-borrowing/), [borrowing](lending-borrowing/borrowing.md), [margin accounts](margin-accounts.md), [FX forwards](fx-forwards.md), and [staking](staking.md). Users carry out all protocol functions using YieldBlox's smart contracts.
+YieldBlox is a decentralized finance (DeFi) protocol for lending and borrowing built on [Stellar](https://www.stellar.org). Users carry out all protocol functions using YieldBlox's smart contracts hosted on [Stellar Turrets](https://tss.stellar.org). These can be accessed either directly using API calls, or through a front-end such as the YieldBlox web app.
 
 ## What is a decentralized finance protocol?
 
-A decentralized finance protocol is a protocol that operates using decentralized, immutable smart contracts and does not rely on any intermediary organizations to function. YieldBlox is decentralized because it uses the Stellar Turret smart contract protocol to function. Our team has no control over the protocol after it is deployed, and if we cease to exist, the protocol will continue to function perfectly well without us. This means that all assets deposited in the protocol are only under the control of the users who deposited them. The protocol is completely non-custodial.
+A decentralized finance protocol is a financial application that does not rely on or require its users to trust a central intermediary. This is often achieved by building the protocol using immutable smart contracts that run on a distributed network. In YieldBlox's case, it operates using smart contracts built with the Stellar Turret smart contract engine. There is no central organization that controls YieldBlox and no organization that YieldBlox relies on to continue operating. This means that YieldBlox is non-custodial, trust-minimized, and censorship-resistant.
 
 ## What is unique about YieldBlox?
 
-The DeFi money market landscape has become very competitive. There are a variety of money market protocols build on programmable blockchains like Ethereum and Solana. Nevertheless, YieldBlox has made several improvements on existing money market protocol models and created a unique offering.&#x20;
+The DeFi money market landscape has become very competitive. There are a variety of money market protocols built on programmable blockchains like Ethereum and Solana. Nevertheless, YieldBlox has made several improvements on existing money market protocol models and created a unique offering.&#x20;
 
-**Extreme Capital Efficiency**
+**Platform Focus**
 
-Capital efficiency is crucial for any money market protocol. Protocols must make depositor's capital as useful as possible to maintain high interest rates. YieldBlox handles this by lending assets in three different through traditional overcollateralized [borrowing](lending-borrowing/borrowing.md), [margin accounts](margin-accounts.md), and whitelisted [lines of credit](lending-borrowing/lines-of-credit.md). In addition, lent assets are used to size FX forward markets.
+Stellar is a unique blockchain in that it's an ideal backend for fintech platforms. It's very easy for a small team to spin up a mobile application and plug into the Stellar network to provide their users with payment and trading capabilities. YieldBlox was built with these platforms in mind. Platforms can use YieldBlox to provide their users with lending and borrowing tools without reducing the decentralization of their platform. In addition, platforms can leverage YieldBlox's unique tokenomics model and isolated lending markets to bootstrap growth of their own platform, ease anchor adoption, and build a non-custodial revenue model.
+
+**High Capital Efficiency**
+
+Capital efficiency is crucial for any money market protocol. The most straightforward way to do so is by increasing asset loan-to-value ratios. However, this comes with an increased risk of underwater positions. YieldBlox's [Default Protection](lending-borrowing/default-protection.md) mechanism greatly reduces the risk that underwater positions pose, allowing the protocol to sustain high loan-to-value ratios.&#x20;
 
 **Unique Tokenomics**
 
-Tokenomics, when designed correctly, can be an invaluable tool for a DeFi protocol. The protocol's platform token allows users to benefit from the long-term success protocol and can be used to perform essential protocol functions. YBX, YieldBlox's platform token, accomplishes this with a [five-level tokenomics model](ybx-tokens/ybx-tokenomics.md) that allows YBX holders to shape and benefit from every aspect of the YieldBlox protocol. In addition, it performs the crucial function of serving as a reserve asset that eliminates counterparty risk for users through [YBX default protection](ybx-tokens/ybx-backstop.md).&#x20;
+Tokenomics, when designed correctly, can be an invaluable tool for a DeFi protocol. YBX, YieldBlox's utility token utilizes a [five-level tokenomics model](ybx-tokens/ybx-tokenomics.md) that touches every portion of the protocol.
 
 **Built on Stellar**
 
-YieldBlox is the first DeFi protocol built on Stellar. Stellar is a perfect platform for DeFi protocols with extremely fast transactions, low fees, and an ecosystem that is well equipped to tokenize real-world currencies and assets. Additionally, Stellar's focus on developing countries means YieldBlox will be able to serve a user base that has traditionally been hard for DeFi protocols to tap into.&#x20;
+YieldBlox is the first DeFi protocol built on Stellar. Stellar is an excellent platform for DeFi protocols with extremely fast transactions, low fees, and an ecosystem that is well equipped to tokenize real-world currencies and assets. Additionally, Stellar's focus on developing countries means YieldBlox will be able to serve a user base that has traditionally been hard for DeFi protocols to tap into.&#x20;
 
 ## What are the benefits of YieldBlox?
 
@@ -32,15 +36,9 @@ YieldBlox brings a decentralized, on-ledger money market to the Stellar ecosyste
 Within the ecosystem, this promises to:
 
 * Increase and trading payment liquidity
-* Provide ledger-level yield product
+* Improve capital productivity
 * Reduce reliance on lending intermediaries like banks
-* Serve a global market with a cost of less than $0.01 per loan or forward
-
-## What is the motivation for YieldBlox?
-
-YieldBlox was created under the same motivation as [Stellar](https://www.stellar.org): to bring equitable economic access to the entire world. Too many people are underserved by the global economy and don't have access to the financial functions that banks and other lending intermediaries provide.
-
-YieldBlox hopes to erase these barriers by providing an easy-to-use [lending](lending-borrowing/) and [FX forwards](fx-forwards.md) web app. Along with this, Yieldblox will improve Stellar Ecosystem liquidity and offer a trust-free yield-earning product.
+* Serve a global market with a cost of less than $0.01 per transaction
 
 ## How do I use YieldBlox?
 

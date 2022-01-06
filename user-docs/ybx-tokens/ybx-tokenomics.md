@@ -41,6 +41,6 @@ Additionally, FX forward market sizes are capped to the balance of the underlyin
 
 ### Level 5: Institutions can stake YBX to increase the size of their lines of credit.
 
-The size of the [lines of credit](../lending-borrowing/lines-of-credit.md) offered by YieldBlox is limited by the creditworthiness of the whitelisted institution. If an institution requires a larger line of credit, they can stake YBX to increase their limit. If they default on their line of credit, the protocol will confiscate a portion of their stake, so by staking, they are improving their creditworthiness.
+The size of the [lines of credit](broken-reference) offered by YieldBlox is limited by the creditworthiness of the whitelisted institution. If an institution requires a larger line of credit, they can stake YBX to increase their limit. If they default on their line of credit, the protocol will confiscate a portion of their stake, so by staking, they are improving their creditworthiness.
 
 ![](https://lh6.googleusercontent.com/iyEwL84K51m2vF4tS77wRIGJlL4rf8CylNwBYWuBJIYBh17zVA1hGfpbOZTFSX2Gp1emRT2gMraj3oOwAqQl4WAO5oZXXk1bCCQZzkU62VkYsdY2UiesJxOgx18eMW1YxNDZD0FOtYc)

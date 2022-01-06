@@ -8,7 +8,7 @@ To originate a loan, a user must ensure their health factor will be above 1.10 a
 
 ![](<../../.gitbook/assets/health factor scale.svg>)
 
-An accounts health factor is calculated with a user's liability value (outstanding loan value + accrued interest), collateral value, the average liquidation factor of their collateral, and the average collateral liquidation incentive. See the health factor calculation below:
+An accounts health factor is calculated with a user's liability value (outstanding loan value + accrued interest), collateral value, the average loan-to-value ratio of their collateral, and the average collateral liquidation incentive using [this formula](../../technical-docs/math.md#health-factor).
 
 $$
 H=\frac {\sum^{|C|}_{i=1}Fi*V_{ci}} {\sum^{|L|}_{i=1}V_{li}}
