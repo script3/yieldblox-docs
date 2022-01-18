@@ -12,7 +12,7 @@
   * [Health Factors](user-docs/lending-borrowing/health-factors.md)
   * [Liquidations](user-docs/lending-borrowing/liquidations.md)
   * [Default Protection](user-docs/lending-borrowing/default-protection.md)
-* [Escrowing](user-docs/staking.md)
+* [Escrowing](user-docs/escrowing.md)
 * [Governance](user-docs/governance.md)
 * [YBX Tokens](user-docs/ybx-tokens/README.md)
   * [YBX Tokenomics](user-docs/ybx-tokens/ybx-tokenomics.md)

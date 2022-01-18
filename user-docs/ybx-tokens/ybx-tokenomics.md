@@ -19,7 +19,7 @@ The foundation of YBX tokenomics is the [YBX distribution mechanism](./#how-do-i
 
 ### Level 1: Users can stake YBX to earn a portion of YieldBlox protocol revenue.
 
-YBX holders can [stake](../staking.md#what-is-staking) their YBX for sYBX, which earns them a portion of YieldBlox protocol revenue. This works by taking ≈10% of borrower interest payments, ≈40% of margin account user interest payments, and ≈90% of FX forward user interest payments and using it to repurchase YBX on the Stellar DEX. The repurchased YBX is distributed to the YBX staking pool, which sYBX holders receive a proportional amount of when their staking period ends.
+YBX holders can [stake](../escrowing.md#what-is-staking) their YBX for sYBX, which earns them a portion of YieldBlox protocol revenue. This works by taking ≈10% of borrower interest payments, ≈40% of margin account user interest payments, and ≈90% of FX forward user interest payments and using it to repurchase YBX on the Stellar DEX. The repurchased YBX is distributed to the YBX staking pool, which sYBX holders receive a proportional amount of when their staking period ends.
 
 ![](https://lh4.googleusercontent.com/B7dihereU-pc6\_BK4AdUiwcw7JqjGL4cXC3KoPwdXGF5t3qmfEL0gGmt6aVmdD0Az\_063N4FN5Y2SPl1Xu5HBxY4yyjMUZ0qJmF4f73SCqEf0-v-kVmVzKuT4j1g\_MhltuuJFcvgPa8)
 
