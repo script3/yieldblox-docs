@@ -46,10 +46,12 @@ All a user needs to do to use YieldBlox is connect their Stellar wallet to the Y
 
 YieldBlox currently supports the following wallets:
 
-* ****[**LOBSTR**](https://lobstr.co)****
+
+
 * ****[**Freighter**](https://www.freighter.app)
 * ****[**Albedo**](https://albedo.link)
-* ****[**Rabet**](https://rabet.io)****
+
+****
 
 More technical users can also use YieldBlox through our API or by sending requests directly to the turrets hosting our protocol smart contracts.
 
