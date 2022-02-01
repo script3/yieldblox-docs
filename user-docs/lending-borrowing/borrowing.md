@@ -6,7 +6,7 @@ When borrowing, users deposit assets into the lending pool and withdraw assets t
 
 ## What is collateral?
 
-Collateral is the assets the borrower pledges to secure the repayment of a loan. If a loan ever becomes undercollateralized, meaning its repayment is at risk, the loan is liquidated, and a portion of the borrower's collateral is forfeited. YieldBlox uses [pool tokens ](lending.md#what-are-pool-tokens)as collateral. This means that borrowers will receive interest on their collateral deposits!
+Collateral is the assets the borrower pledges to secure the repayment of a loan. If a loan ever becomes undercollateralized, meaning its repayment is at risk, the loan is liquidated, and a portion of the borrower's collateral is forfeited. YieldBlox uses [pool tokens](lending.md#what-are-pool-tokens) as collateral. This means that borrowers will receive interest on their collateral deposits!
 
 ## What is accepted as collateral?
 
@@ -14,7 +14,7 @@ Any asset on [Stellar's network](https://developers.stellar.org/docs/start/intro
 
 ## How much collateral do I need?
 
-Borrowers must have a [health factor ](health-factors.md)of above 1.10 after loan origination in order to borrow assets from YieldBlox. They must maintain a health factor of above 1.00 in order to avoid liquidation. Health factors are based on a collateral assets loan-to-value ratio, so collateral requirements vary depending on the asset the user is collateralizing. Loan-to-value ratios are set by governance proposals, so they can change.
+Borrowers must have a [health factor](health-factors.md) of above 1.10 after loan origination in order to borrow assets from YieldBlox. They must maintain a health factor of above 1.00 in order to avoid liquidation. Health factors are based on a collateral assets loan-to-value ratio, so collateral requirements vary depending on the asset the user is collateralizing. Loan-to-value ratios are set by governance proposals, so they can change.
 
 ## What happens to the collateral?
 
@@ -26,8 +26,8 @@ Borrowers repay loans by returning all borrowed assets and accrued interest to t
 
 ## Can borrowers repay only part of their loan?
 
-Yes! Borrowers can repay portions of loans at any time. Doing so also lowers their collateral requirements allowing them to withdraw collateral if they wish to.&#x20;
+Yes! Borrowers can repay portions of loans at any time. Doing so also lowers their collateral requirements allowing them to withdraw collateral if they wish to.
 
 ## Can I repay my loan with collateral?
 
-Yes! YieldBlox enables borrowers to repay loans with collateral. The protocol sells as much collateral as necessary to repay the loan, and the user can withdraw the remainder.
+Yes! YieldBlox enables borrowers to repay loans with collateral. To do so, the collateral balance will be sold for the underlying borrow asset and used to repay the loan. Users must specify the [path payment](https://developers.stellar.org/api/resources/operations/object/path-payment-strict-send/) each collateral balance takes to become the underlying borrow asset.

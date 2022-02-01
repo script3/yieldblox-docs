@@ -6,7 +6,7 @@ If a borrower's loan becomes undercollateralized (their [health factor](./#whats
 
 ## When would a borrower be liquidated?
 
-Borrowers can be liquidated if their account's health factor falls below 1.00. The [health factor](./#whats-a-health-factor) is a measure of an account's collateralization levels and is calculated with a user's liability value, collateral value, the average collateral liquidation factor, and the average collateral liquidation incentive.
+Borrowers can be liquidated if their account's health factor falls below 1.00. The [health factor](./#whats-a-health-factor) is a measure of an account's collateralization levels.
 
 ## How do YieldBlox liquidations protect borrowers?
 
@@ -26,4 +26,4 @@ Yes, YieldBlox allows liquidators to use borrower's collateral to repay their de
 
 ## What if the liquidated borrower does not have sufficient collateral to support the liquidation incentive?
 
-In cases of extreme volatility, it is possible for the liquidation incentive to be impossible to pay out under normal market conditions. This could happen if the value of the user's liability increased drastically in a very short amount of time, or the value of the user's collateral fell rapidly. To ensure the undercollateralized loan is still liquidated, YieldBlox uses the [default protection](default-protection.md) system.&#x20;
+In cases of extreme volatility, it is possible for the liquidation incentive to be impossible to pay out under normal market conditions. This could happen if the value of the user's liability increased drastically in a very short amount of time, or the value of the user's collateral fell rapidly. To ensure the undercollateralized loan is still liquidated, YieldBlox uses the [default protection](default-protection.md) system.
