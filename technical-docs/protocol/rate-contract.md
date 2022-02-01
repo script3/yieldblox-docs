@@ -5,7 +5,7 @@ Loan rate rebalancing and rate swaps are done through the Rate contract. Users l
 **Request**
 
 ```
-{    
+{
     userPublicKey: string,
     timestamp: number,
     type: string,
@@ -17,8 +17,8 @@ Loan rate rebalancing and rate swaps are done through the Rate contract. Users l
 \
 _**Fields:**_
 
-* Claimable Balance Id: ID of the claimable balance representing the loan that needs to have its interest rate swapped.
-* Target Rate: Target interest rate for the loan (fixed or floating)
+- Claimable Balance Id: ID of the claimable balance representing the loan that needs to have its interest rate swapped.
+- Target Rate: Target interest rate for the loan (fixed or floating)
 
 ### High-Level Contract Process Flow
 
@@ -34,8 +34,8 @@ _**Fields:**_
    1. The contract calculates accrued interest and adds it to the liability balance.
    2. The contact calculates all unclaimed YBX issuance associated with this liability balance.
 6. Contract adds a `createClaimableBalace` operation where the pool creates a liability balance with the target interest rate.
-   1. If the user is the owner they sponsor the liability balance. If they are not the owner the staking pool sponsors the liability balance.
-      1. The rebalancer must pay the staking pool the necessary minimum reserve for sponsoring the liability balance.
+   1. If the user is the owner they sponsor the liability balance. If they are not the owner the escrow account sponsors the liability balance.
+      1. The rebalancer must pay the escrow account the necessary minimum reserve for sponsoring the liability balance.
 7. Contract creates a `payment` operation where the distribution account pays any unclaimed YBX to the user.
 8. Contract adds all necessary Utilization Tracker operations.
 9. Turret builds transaction builder into an XDR and returns it along with a signature.
@@ -44,4 +44,4 @@ _**Fields:**_
 
 ![](<../../.gitbook/assets/image (21).png>)
 
-**User Account:**  The **** pool claims the liability claimable balance and recreates it with a floating interest rate.
+**User Account:** The \*\*\*\* pool claims the liability claimable balance and recreates it with a floating interest rate.

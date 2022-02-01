@@ -73,11 +73,11 @@ Yes. The YieldBlox protocol can be changed or updated using its [governance](gov
 
 ## How does governance work?
 
-The YieldBlox protocol is updated and maintained using a [governance](governance.md) token model. Users receive [YBX tokens](ybx-tokens/) for lending or borrowing, and these tokens can be [staked](escrowing.md) and then used to make and vote on protocol updates and changes.
+The YieldBlox protocol is updated and maintained using a [governance](governance.md) token model. Users receive [YBX tokens](ybx-tokens/) for lending or borrowing, and these tokens can be [escrowed](escrowing.md) and then used to make and vote on protocol updates and changes.
 
 ## What's a YBX token?
 
-[YBX](ybx-tokens/) is YieldBlox's platform token. It is issued to those who use the protocol, and it can be [staked](escrowing.md) to earn a portion of protocol revenue and propose and vote on [governance](governance.md) proposals to modify the protocol.
+[YBX](ybx-tokens/) is YieldBlox's platform token. It is issued to those who use the protocol, and it can be [escrowed](escrowing.md) to earn a portion of protocol revenue and propose and vote on [governance](governance.md) proposals to modify the protocol.
 
 ## Are there risks when using YieldBlox?
 

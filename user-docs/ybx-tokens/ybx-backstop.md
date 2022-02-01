@@ -4,7 +4,7 @@ The YBX Default Protection program is used to eliminate counterparty risk from t
 
 ## How does YBX Default Protection remove counterparty risk?
 
-In the case a [liquidation](../lending-borrowing/liquidations.md#what-is-liquidation) would be unprofitable for the liquidator, or an FX forward settlement would be impossible, the protocol will sell YBX accrued by the YBX staking pool from [fee distributions](ybx-tokenomics.md#level-1-users-can-stake-ybx-to-earn-a-portion-of-yieldblox-protocol-revenue) to ensure the liquidation is profitable, or the FX forward settlement is successful. A maximum of 20% of the staking pool can be sold this way. If this amount is insufficient, the protocol will mint new YBX to cover the remaining deficit.&#x20;
+In the case a [liquidation](../lending-borrowing/liquidations.md#what-is-liquidation) would be unprofitable for the liquidator, or an FX forward settlement would be impossible, the protocol will sell YBX accrued by the escrow account from [fee distributions](ybx-tokenomics.md#level-1-users-can-stake-ybx-to-earn-a-portion-of-yieldblox-protocol-revenue) to ensure the liquidation is profitable, or the FX forward settlement is successful. A maximum of 20% of the escrow account can be sold this way. If this amount is insufficient, the protocol will mint new YBX to cover the remaining deficit.&#x20;
 
 ![](https://lh4.googleusercontent.com/5cYyUTtNVNem73p1avk2WK0k5gWvrMcTjo5obymnSbXcqdWN3qHOxMzOzT6eCa9RY7zevAz-j7uaZni67gdwUGP1x2NCYgmjzKeUpGwzLlPuqJHgtTTFKAfa8Jtf4evFNKCr2JuvOss)
 
