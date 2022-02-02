@@ -1,6 +1,6 @@
 # YBX Issuance
 
-YBX issuance is the process by which platform YBX incentives are paid out to protocol lenders (only lenders with collateralized deposits receive YBX incentives), borrowers, and stakers. Issuance is paid out daily and tracked and distributed with 2 different processes, Issuance Tracking and YBX Claims.
+YBX issuance is the process by which platform YBX incentives are paid out to protocol lenders (only lenders with collateralized deposits receive YBX incentives), borrowers, and escrowers. Issuance is paid out daily and tracked and distributed with 2 different processes, Issuance Tracking and YBX Claims.
 
 ### Issuance Tracking
 
@@ -21,7 +21,7 @@ We'll provide an example below:
 
 Most recent position: 100,000 l00XLM liability Position - last updated on block 1000
 
-* Previous position was 50,000 l00XLM - last updated on block 750
+- Previous position was 50,000 l00XLM - last updated on block 750
 
 Set of YBX issuance payments for l00XLM
 

@@ -16,13 +16,13 @@ Pool tokens are also used as collateral. Borrowers collateralize pool tokens the
 
 ## Why would users lend on YieldBlox?
 
-In exchange for lending with YieldBlox, lenders receive interest from borrowers and [YBX ](../ybx-tokens/#how-do-i-get-ybx-tokens)issuance from the protocol. In addition, when lending on YieldBlox, users retain control of their funds. The protocol is decentralized, trust-free, and non-custodial. Only the protocol smart contracts have control over user funds, and users can withdraw their funds at any time.
+In exchange for lending with YieldBlox, lenders receive interest from borrowers and [YBX](../ybx-tokens/#how-do-i-get-ybx-tokens) issuance from the protocol. In addition, when lending on YieldBlox, users retain control of their funds. The protocol is decentralized, trust-free, and non-custodial. Only the protocol smart contracts have control over user funds, and users can withdraw their funds at any time.
 
-Lenders should note that to receive YBX issuance, they must deposit the pool tokens they received from lending as collateral.&#x20;
+Lenders should note that to receive YBX issuance, they must deposit the pool tokens they received from lending as collateral.
 
 ## What is the interest rate for lending on YieldBlox?
 
-Lending interest rates equal the _borrowing interest rate_ multiplied by the _utilization ratio_ since interest paid by borrowers is distributed proportionally to lenders. Borrowing interest rates are [demand-based](interest-rates.md#how-do-loan-interest-rates-work) and calculated using the utilization ratio. This means borrowing interest rates increase as the percentage of protocol assets lent to borrowers increases. Currently, an asset's borrowing interest rate ranges from 5% at 0% utilization to over 100% at 97%+ utilization. However, [governance proposals](../governance.md) can modify the rate at which interest rates adjust based on utilization rates.&#x20;
+Lending interest rates equal the _borrowing interest rate_ multiplied by the _utilization ratio_ since interest paid by borrowers is distributed proportionally to lenders. Borrowing interest rates are [demand-based](interest-rates.md#how-do-loan-interest-rates-work) and calculated using the utilization ratio. This means borrowing interest rates increase as the percentage of protocol assets lent to borrowers increases. Currently, an asset's borrowing interest rate ranges from 5% at 0% utilization to over 100% at 97%+ utilization. However, [governance proposals](../governance.md) can modify the rate at which interest rates adjust based on utilization rates.
 
 ## How do lenders receive interest?
 
@@ -34,7 +34,7 @@ You do! Assets lent to the protocol are controlled by YieldBlox's smart contract
 
 ## What assets can be lent?
 
-Any Stellar-based asset approved by [protocol governance](../governance.md) can be lent with YieldBlox. More assets will be added to the protocol over time through governance proposals voted on by YBX holders.&#x20;
+Any Stellar-based asset approved by [protocol governance](../governance.md) can be lent with YieldBlox. More assets will be added to the protocol over time through governance proposals voted on by YBX holders.
 
 ## How do lenders withdraw lent assets?
 
@@ -42,4 +42,4 @@ Lenders can withdraw assets by using YieldBlox's smart contracts to burn the poo
 
 ## Is there any situation where lenders can't withdraw assets?
 
-If an assets utilization ratio is too high, there may not be sufficient liquidity for a lender to withdraw assets because too much of the asset balance is currently lent out. However, due to YieldBlox's [demand-based interest rate model](interest-rates.md), this is extremely unlikely. Interest rates are extremely high (over 100%) at high utilization ratios, which heavily incentivizes borrowers to repay their loans and new entities to lend to the protocol, thus adding liquidity and lowering the utilization ratio.&#x20;
+If an assets utilization ratio is too high, there may not be sufficient liquidity for a lender to withdraw assets because too much of the asset balance is currently lent out. However, due to YieldBlox's [demand-based interest rate model](interest-rates.md), this is extremely unlikely. Interest rates are extremely high (over 100%) at high utilization ratios, which heavily incentivizes borrowers to repay their loans and new entities to lend to the protocol, thus adding liquidity and lowering the utilization ratio.

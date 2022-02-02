@@ -5,7 +5,7 @@ The burn contract is used to exchange pool tokens for the underlying assets they
 **Request**
 
 ```
-{    
+{
     userPublicKey: string,
     timestamp: number,
     type: string,
@@ -16,13 +16,13 @@ The burn contract is used to exchange pool tokens for the underlying assets they
 
 #### Fields:
 
-* Pool Token Code: asset code of the pool token being burned
-* Amount: amount of pool tokens to burn
+- Pool Token Code: asset code of the pool token being burned
+- Amount: amount of pool tokens to burn
 
 #### Calculations:
 
-* Asset Payout
-  * the amount of the underlying asset to payout relative to the proportion of the pool
+- Asset Payout
+  - the amount of the underlying asset to payout relative to the proportion of the pool
 
 ###
 
@@ -36,7 +36,7 @@ The burn contract is used to exchange pool tokens for the underlying assets they
 3. Contract builds a transaction builder object
    1. This is the object operations will be added to throughout the rest of the contract process flow.
 4. Contract calculates the value of the poolToken, subtracting withdrawal fees.
-   1. Contract adds a `pathPayment` operation where the pool uses the withdrawal fee to purchase YBX and send it to the staking pool (the destination asset is YBX).
+   1. Contract adds a `pathPayment` operation where the pool uses the withdrawal fee to purchase YBX and send it to the escrow pool (the destination asset is YBX).
 5. Contract adds a `payment` operation where the user pays the poolTokens they are burning to the pool (deleting them).
 6. Contract adds a `payment` operation where the pool pays the value of the burned pool tokens in underlying to the user.
 7. Contract adds operations to handle Utilization Updates and Corrections. See Average Utilization Ratios section.

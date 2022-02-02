@@ -5,7 +5,7 @@ Users will claim their governance rewards using this contract. Any time a claima
 **Request**
 
 ```
-{    
+{
     userPublicKey: string,
     timestamp: number,
     type: string,
@@ -16,14 +16,14 @@ Users will claim their governance rewards using this contract. Any time a claima
 \
 _**Fields:**_
 
-* operation: Update or Claim, update sends issuance tracker payments for a period. Claim claims YBX for users.
+- operation: Update or Claim, update sends issuance tracker payments for a period. Claim claims YBX for users.
 
 #### Calculations:
 
-* _Issuance Amount_
-  * the amount of YBX to issue per asset
-* _Claim Amount_
-  * the amount of YBX the user can claim over the unclaimed periods
+- _Issuance Amount_
+  - the amount of YBX to issue per asset
+- _Claim Amount_
+  - the amount of YBX the user can claim over the unclaimed periods
 
 ### High-Level Contract Process Flow
 
@@ -39,7 +39,7 @@ _**Fields:**_
    2. Contract calculates the YBX issuance ratio for each asset. See YBX Issuance section.
    3. Contract send YBX issuance ratio payments to all YBX issuance trackers.
    4. Contract adds a `payment` operation where the issuance account pays all YBX to be distributed this period to the distribution account.
-   5. Contract adds a `payment` operation where the distribution account pays all YBX allocated to YBX stakers to the staking pool.
+   5. Contract adds a `payment` operation where the distribution account pays all YBX allocated to YBX escrowers to the escrow pool.
 5. If the contract is performing a CLAIM operation.
    1. Contract identifies all user positions that have unclaimed YBX issuance accrued to them.&#x20;
    2. Contract creates `claimClaimableBalance` operations where the pool claims all user positions that have YBX to claim.&#x20;
