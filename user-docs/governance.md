@@ -18,7 +18,7 @@ Once a user submits a proposal to change the protocol, users have three days to 
 
 Users have three days to vote on proposals. They vote 'YES' or 'NO' on proposed protocol updates or changes using a voting smart contract. The number of votes each user has is equal to the amount of veYBX they hold.
 
-If the vote passes (60% of votes are YES at the end of the voting period), the proposal status data entry is changed to “approved”. If it does not pass, the proposal account is deleted. A proposal vote must reach a quorum of at least 5% of outstanding governance tokens to pass.
+If the vote passes (60% of votes are YES at the end of the voting period), the proposal status data entry is changed to _approved_. If it does not pass, the proposal account is deleted. A proposal vote must reach a quorum of at least 5% of outstanding governance tokens to pass.
 
 ## Who can vote?
 
