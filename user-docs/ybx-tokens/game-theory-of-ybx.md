@@ -8,7 +8,7 @@ description: >-
 
 ## How can I get the most value out of my YBX?
 
-A user can essentially do five actions with YBX tokens, each one impacting the protocol and, therefore, the value of the YBX they have. The more participation within YieldBlox, the better it is for all parties involved. These actions are highlighted in the [Five Levels of YieldBlox Productivity](ybx-tokenomics.md#the-five-levels-of-ybx-productivity), the effects these actions have on the protocol and the benefits they have can be illustrated with game theory.
+A user can essentially do five actions with YBX tokens, each one impacting the protocol and, therefore, the value of the YBX they have. The more participation within YieldBlox, the better it is for all parties involved. These actions are highlighted in the [Five Levels of YieldBlox Productivity](ybx-tokenomics.md#the-five-levels-of-ybx-productivity), the effects these actions have on the protocol and the benefits they have can be illustrated with game theory.&#x20;
 
 The five actions a user can do with YBX (simplified):
 
