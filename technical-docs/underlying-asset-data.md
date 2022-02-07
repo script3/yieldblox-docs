@@ -6,7 +6,7 @@ Data entry key: `{Underlying Asset Issuer Key}{Underlying Asset Overlap Key}{Fir
 
 Data entry value: `{Base Interest Rate}_{Interest Rate Slope 0}_{Interest Rate Slope 1}_{Interest Rate Slope 2}_{Interest Rate Slope 3}_{Interest Rate Threshold 1}_{Interest Rate Threshold 2}_{Interest Rate Threshold 3}_{Loan to Value}_{Liquidation Incentive}_{Liquidation Fee}_{Collateral Incentive Allocation}_{Borrowing Incentive Allocation}_{YBX Fee Allocation}_{Price Feed}_{Underlying Asset Ticker}`
 
-where:
+Where:
 
 * Base Interest Rate: Base interest rate constant in the interest rate equation (see math). Multiplied by 100 before being encoded.
 * Interest Rate Slope 0: Interest rate slope when below the first interest rate threshold. Multiplied by 10 before being encoded.

@@ -2,7 +2,7 @@
 
 ### Vote
 
-Users vote on governance proposals through this contract.&#x20;
+Users vote on governance proposals through this contract.
 
 **Request**
 
@@ -22,12 +22,12 @@ Users vote on governance proposals through this contract.&#x20;
 
 _**Fields:**_
 
-- proposalAccount: account ID of the proposal being voted on
-- votes: array of user votes
-  - If user is voting on a non-allocation update the assetCode will be YES or NO
-  - If user is voting on an allocation update the assetCode will be a liability token code, pool token code, or YBX
-  - amount is the number of votes the user wishes to cast
-- allocation updates: true if the user is voting for an allocation update. False if they are not
+* proposalAccount: account ID of the proposal being voted on
+* votes: array of user votes
+  * If user is voting on a non-allocation update the assetCode will be YES or NO
+  * If user is voting on an allocation update the assetCode will be a liability token code, pool token code, or YBX
+  * amount is the number of votes the user wishes to cast
+* allocation updates: true if the user is voting for an allocation update. False if they are not
 
 ### High-Level Contract Process Flow
 
@@ -43,8 +43,6 @@ _**Fields:**_
 6. Contract checks how much vYBX the user currently has.
    1. If the user does not have sufficient vYBX to cast their votes the contract adds a `payment` operation where the escrow account pays the necessary vYBX to the user.
    2. If the user has too much vYBX the contract adds a `payment` operation that pays the excess vYBX to the escrow account.
-7. Contract adds `manageSellOffer` operations where the user offers to sell vYBX for their input vote assets. Vote assets are assets with the input asset code with the proposal account as the issuer.&#x20;
+7. Contract adds `manageSellOffer` operations where the user offers to sell vYBX for their input vote assets. Vote assets are assets with the input asset code with the proposal account as the issuer.
 8. Contract adds a `allowTrust` operation where the escrow account authorizes the user to maintain vYBX liabilities.
 9. Turret builds, signs, and returns the XDR.
-
-\
