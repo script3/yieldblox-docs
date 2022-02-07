@@ -4,15 +4,15 @@
 
 ## How does governance work on YieldBlox?
 
-The YieldBlox protocol is updated and maintained using a governance token model. Users receive [YBX tokens](ybx-tokens/) for [lending or borrowing](lending-borrowing/), and these tokens can be escrowed for veYBX. veYBX tokens have governance power that can be used to make and vote on protocol updates and changes.
+The YieldBlox protocol is updated and maintained using a DAO governance token model. Users receive [YBX tokens](ybx-tokens/) for [lending or borrowing](lending-borrowing/), and these tokens can be escrowed for veYBX. veYBX tokens have governance power that can be used to make and vote on protocol updates and changes.
 
 ## How does the protocol change?
 
-The YieldBlox protocol is controlled by [YBX token](ybx-tokens/) escrows. Holders of veYBX tokens can propose, vote on, and implement changes to the protocol. Proposals can modify existing protocol parameters or add entirely new functionalities to the protocol.
+The YieldBlox protocol is controlled by [YBX token](ybx-tokens/) escrows, who makeup the YieldBlox DAO. Holders of veYBX tokens can propose, vote on, and implement changes to the protocol. Proposals can modify existing protocol parameters or add entirely new functionalities to the protocol.
 
 Once a user submits a proposal to change the protocol, users have three days to vote on whether to implement or reject the proposal. If the proposal is accepted for implementation, it is queued with a 2-day time delay before being implemented.
 
-![](../.gitbook/assets/voting.svg)
+![](<../.gitbook/assets/gov flow@3x.png>)
 
 ## How does voting work?
 

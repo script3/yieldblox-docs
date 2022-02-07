@@ -46,4 +46,4 @@
 
 * [Technical Resources](resources/technical-resources.md)
 * [Community Resources](resources/community-resources.md)
-* [Brand Assets](resources/brand-assets.md)
+* [Protocol Assets](resources/brand-assets.md)

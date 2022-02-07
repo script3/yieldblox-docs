@@ -26,7 +26,7 @@ Learn more about lending and borrowing on YieldBlox:
 * **Proposed Future Features**
   * **Isolated Lending Pools**
   * **Token Delegation**
-  * ****[**Lines of Credit**](broken-reference)****\
+  * **Lines of Credit**\
     ****How YieldBlox facilitates lines of credit.
 
 

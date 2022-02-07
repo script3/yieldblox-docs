@@ -2,19 +2,9 @@
 
 ### Website
 
-[script3.io](https://www.script3.io)
+[yieldblox.finance](https://www.yieldblox.finance)
 
-### Contact
-
-email: support@script3.io&#x20;
-
-### Blog
-
-[Medium](https://script3.medium.com)
-
-### Social Media
-
-[Twitter](https://twitter.com/script3official)
+### Discussions
 
 [Discord](https://discord.gg/XQ6YS5usCe)
 

@@ -1,6 +1,9 @@
-# YieldBlox Documentation
+---
+cover: .gitbook/assets/YBX Slide (1).png
+coverY: 0
+---
 
-![](<.gitbook/assets/Logo - black text.svg>)
+# YieldBlox Documentation
 
 ### Welcome!
 
@@ -8,14 +11,12 @@ This is the YieldBlox documentation page. Your place for all things related to t
 
 #### What you'll find here:
 
-- [User Documentation](user-docs/general.md)
+*   [User Documentation](user-docs/general.md)
 
-  Information on how the protocol works, answers to questions you may have, and useful visuals\
-
-- [Technical Documentation](broken-reference)\
-  Protocol entities, equations, and protocol information\
-
-- [Resources](resources/technical-resources.md)\
+    Information on how the protocol works, answers to questions you may have, and useful visuals\\
+* [Technical Documentation](broken-reference/)\
+  Protocol entities, equations, and protocol information\\
+* [Resources](resources/technical-resources.md)\
   Developer resources, external audits, contact information, social media, and YieldBlox logos and emotes
 
 Explore the docs to find out more!

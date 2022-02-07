@@ -14,7 +14,7 @@ Stellar's open network allows anyone to submit a transaction to change the ledge
 
 In YieldBlox’s case, before a loan is taken out or repaid, the local network of nodes agree upon the transaction's validity. This prevents parties with ill intentions from engaging in illicit behavior on the network. Therefore, Stellar provides a secure financial network with one source of truth and can be instantly accessed and modified by anyone in the world.
 
-## Why we built YieldBlox on Stellar
+## Why the YieldBlox Protocol is built on Stellar
 
 The Stellar network has some key characteristics which YieldBlox takes advantage of:\
 
@@ -23,19 +23,19 @@ The Stellar network has some key characteristics which YieldBlox takes advantage
   The SCP enables the Stellar Blockchain to offer extremely low fees and settlement times. In addition, it follows a federated byzantine agreement model, which allows the network to remain decentralized and antifragile without requiring a large validator set or economic incentives.\
 
 * **Focus on Finance**\
-  Stellar is a non-programmable blockchain by design. It is meant to be used almost exclusively for facilitating financial services. This reduces network bloat and ensures high-performance for the financial infrastructure using the network.\
+  The Stellar Network is meant to be used almost exclusively for facilitating financial services. This reduces network bloat and ensures high-performance for the financial infrastructure using the network.\
 
 * **High Capital Efficiency**\
-  ****Stellar uses an on-chain DEX that prevents liquidity fragmentation within the ecosystem. When AMM’s are added to the network (currently in the works), trades will execute against both AMM’s and the DEX to preserve capital efficiency. This interleaved execution improves liquidity and reduces in-network arbitrage opportunities, resulting in efficient trading.\
+  ****Stellar uses an on-chain DEX that prevents liquidity fragmentation within the ecosystem. With AMMs, trades execute against both AMMs and the DEX to preserve capital efficiency. This interleaved execution improves liquidity and reduces in-network arbitrage opportunities, resulting in efficient trading.\
 
 * **Established Ecosystem Standards**\
-  ****Building Fintech apps with Stellar is extremely easy due to the strength of Stellar’s ecosystem standards. Multiple cohesive SDKs make it easy to interface an app with Stellar. Additionally, Stellar has excellent specifications for on and off-ramping fiat currencies and handling KYC, making it easy for fintech apps to onboard non-blockchain-native users.\
+  ****Building fintech apps with Stellar is extremely easy due to the strength of Stellar’s ecosystem standards. Multiple cohesive SDKs make it easy to interface an app with Stellar. Additionally, Stellar has excellent specifications for on and off-ramping fiat currencies and handling KYC, making it easy for fintech apps to onboard non-blockchain-native users.\
 
 * ****[**Anchors**](https://developers.stellar.org/docs/anchoring-assets/)\
   Stellar has a multi-asset functionality called anchoring which enables users to create custom assets on its ledger tied to real-world assets. This means YieldBlox can support the lending of any asset.\
 
 * ****[**Stellar Turrets**\
-  ](https://tss.stellar.org)Currently in development, Stellar Turrets (Turrets) will be a new feature to the Stellar ecosystem. Turrets are a decentralized network of servers that hold uploaded smart contracts that can then be tied to private keys. Transactions are signed with these private keys if the transactions meet the requirements of the smart contracts. The YieldBlox protocol uses this new tool to manage some of the Turing complete logic surrounding loan processing.
+  ](https://tss.stellar.org)Turrets are a decentralized network of servers that hold uploaded smart contracts that can then be tied to private keys. Transactions are signed with these private keys if the transactions meet the requirements of the smart contracts. The YieldBlox Protocol uses this tool to manage some of the Turing complete logic surrounding loan processing.
 
 
 
@@ -46,7 +46,7 @@ The Stellar network has some key characteristics which YieldBlox takes advantage
 YieldBlox uses Stellar's security features to ensure loans and collateral accounts associated with the protocol are safe from risks.
 
 * ****[**Stellar Turrets Protocol**\
-  ****](https://github.com/tyvdh/turing-signing-server)The Turrets protocol provides YieldBlox with a method of adding Turing complete smart contract logic to transactions without requiring Script3 to control the accounts involved in the transactions. This decentralizes YieldBlox without reducing efficiency.\
+  ****](https://github.com/tyvdh/turing-signing-server)The Turrets protocol provides YieldBlox with a method of adding Turing complete smart contract logic to transactions without requiring a third party to control the accounts involved in the transactions. This decentralizes YieldBlox without reducing efficiency.\
 
 * ****[**Multi-Sig**\
   ****](https://developers.stellar.org/docs/glossary/multisig/)YieldBlox margin account users must store borrowed assets in accounts partially controlled by the YieldBlox protocol. This is to ensure they cannot transfer the assets outside of the protocol ecosystem. Stellar’s multi-sig capability allows YieldBlox to add all necessary Turret signers to the margin account and modify account thresholds so that the user does not have complete control over the account. Thus preventing the account from submitting transactions without using Turret functions. This security measure locks borrowed assets in the margin account until margin repayment or liquidation.\
