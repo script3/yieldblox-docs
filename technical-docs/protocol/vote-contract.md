@@ -8,28 +8,36 @@ Users vote on governance proposals through this contract.&#x20;
 
 ```
 {
-    userPublicKey: (userPublicKey),
-    timestamp: (currentTimestamp),
-    type: (protocolEventType),
-    proposalAccount: (amount),
-    votes: [{
-        assetCode: string,
-        amount: string,
-        }],
-    allocationUpdate: boolean
+    userPublicKey: string,
+    timestamp: number,
+    type: ProtocolEventTypes,
+    fee: string,
+    proposalAccountId: string,
+    votes: BalanceLine[],
+    proposalType: ProposalType
 }
 ```
 
 _**Fields:**_
 
-- proposalAccount: account ID of the proposal being voted on
-- votes: array of user votes
+- proposalAccountId: The public key of the account being created as the proposal account.
+- proposalType: Represents the governance proposal type using the following enum
+
+  ```
+  ProposalType {
+   ALLOCATION = 0,
+   CUSTOM = 1,
+   COUNCIL_SWAP_SIGNER = 2,
+   COUNCIL_LOCK_CONTRACT = 3
+  }
+  ```
+
+- votes: array of user votes represented by [BalanceLine](README.md#Balance-Line-Objects)'s
   - If user is voting on a non-allocation update the assetCode will be YES or NO
   - If user is voting on an allocation update the assetCode will be a liability token code, pool token code, or YBX
   - amount is the number of votes the user wishes to cast
-- allocation updates: true if the user is voting for an allocation update. False if they are not
 
-### High-Level Contract Process Flow
+### High-Level Contract Process Flow (MAY BE OUTDATED)
 
 1. User enters the contract through an event handler which transforms their request.
 2. Contract prerequisite data from horizon.

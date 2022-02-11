@@ -1,39 +1,28 @@
 # Repay Contract
 
-User repayments are handled using the Repay contract. Collateral can be withdrawn during a loan repayment as long as the resulting health factor is above 1.1. Users also can repay a loan using collateral instead of the borrowed asset. When repaying a loan with collateral, acceptable slippage can also be defined to protect against volatile price action.
+User repayments are handled using the Repay contract. Users also can repay a loan using collateral instead of the borrowed asset. The user's health factor must have been improved by the request or it will be rejected.
 
 **Request**
 
 ```
 {
-    userPublicKey: string,
-    timestamp: number,
-    type: string,
-    repayments: [{
-        asset: string,
-        amount: string,
-        interestType: string,
-        }],
-    withdrawals?: [{
-        asset: string,
-        amount: string,
-    }],
-    repayWithCollateral: string,
-    acceptableSlippage?: number
+   userPublicKey: string,
+   timestamp: number,
+   type: string,
+   repayments: BalanceLine,
+   targetPool: string,
+   collateralRepayments?: RepayPath[]
 }
 ```
 
 \
 **Fields:**
 
-- repayments (Optional): assets and amounts being repaid as well as the interest type('FIXED' or 'VARIABLE') of the loan being repaid
-- withdrawals (Optional): pool tokens and amounts the user would like to withdraw
-  - Note: If the user attempts to withdraw an amount that would put their health factor below 1.1 the request is rejected
-- repay with collateral: true if user decides to repay with collateral
-  - This means they will burn the withdrawn pool tokens and use a pathPayment to repay the borrow
-- acceptable slippage: acceptable slippage for the path payments used when repaying with collateral
+- repayments:[BalanceLine](README.md#Balance-Line-Objects) that represents the assets and amounts being repaid. [assetId](README.md#AssetId-entries)'s are expected to be liability tokens.
+- targetPool: Id of the pool associated with the assets being repaid.
+- collateralRepayments (OPTIONAL): Array of [RepayPath](README.md#Repay-Path-Objects)'s describing how to structure the pathPayments that will be used to liquidate collateral withdrawn. These are only input if the user is partially or fully repaying with collateral.
 
-### High-Level Contract Process Flow
+### High-Level Contract Process Flow (MAY BE OUT OF DATE)
 
 1. User enters the contract through an event handler which transforms their request.
 2. Contract prerequisite data from horizon.

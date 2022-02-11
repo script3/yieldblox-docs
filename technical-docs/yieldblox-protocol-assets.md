@@ -1,19 +1,21 @@
 # YieldBlox Protocol Assets
 
-Yieldblox uses a variety of custom protocol assets to track protocol information. These assets are all issued by the YieldBlox pool account and represent specific underlying assets. The tokens follow the following naming convention
+Yieldblox uses a variety of custom protocol assets to track protocol information. These assets are all issued by the YieldBlox pool account and represent specific underlying assets. They are all clawback enabled so the pool can manipulate claimable balances containing them. The tokens follow the following naming convention
 
 `{Token Key}{Underlying Asset Issuer Key}{Underlying Asset Overlap Key}{First 9 characters of underlying asset}`
 
 Where:
 
-* Token Key: Character that identifies protocol asset
-  * y = Pool Token
-  * l = Liability Token
-  * i = Accrued Interest Tracker Token
-  * a = Pool Issuance Ratio Tracker Token
-  * b = Liability Issuance Ratio Tracker Token
-* Underlying Asset Issuer Key: base 64 character that identifies the issuer of the underlying asset associated with the protocol token. It corresponds to a pool data entry that holds the issuer account id.
-* Underlying Asset Overlap Key: base 64 character that identifies the last 3 characters in an asset code. It corresponds to a pool data entry that holds the last 3 characters of the asset code
+- Token Key: Character that identifies protocol asset
+  - y = Pool Token
+  - l = Liability Token
+  - i = Accrued Interest Tracker Token
+  - a = Pool Issuance Ratio Tracker Token
+  - b = Pool Issuance Shift Tracker Token
+  - c = Liability Issuance Ratio Tracker Token
+  - d = Liability Issuance Shift Tracker Token
+- Underlying Asset Issuer Key: base 64 character that identifies the issuer of the underlying asset associated with the protocol token. It corresponds to a pool data entry that holds the issuer account id.
+- Underlying Asset Overlap Key: base 64 character that identifies the last 3 characters in an asset code. It corresponds to a pool data entry that holds the last 3 characters of the asset code
 
 #### Pool Tokens
 
@@ -33,17 +35,29 @@ Accrued interest tracker tokens are used to track the interest accrued to outsta
 
 Sample Asset Code for an XLM utilization tracker token: `i00XLM`&#x20;
 
-#### Pool Issuance Ratio Tokens
+#### Pool Issuance Ratio Tracker Tokens
 
-Pool Issuance Ratio Tokens track YBX Incentive payouts for collateralized pool tokens by being sent in payments that track the Issuance Ratio for a given pool token for a given period (Number of YBX Tokens Issued/Collateralized Pool Token). So if there are 100 pool tokens collateralized and 50 YBX tokens are being issued, the issuance ratio will be 0.5 and the amount of Pool Issuance Ration Tokens sent will be 0.5.
+Pool Issuance Ratio Tokens track YBX Incentive payouts for collateralized pool tokens by trading the mantissa amount of the [issuance ratio](math.md#Issuance-Ratio) for a given pool token for a given period for an amount of Pool Issuance Shift Tracker Tokens equal to the exponential associated with that mantissa. So if there are 100 pool tokens collateralized and 50 YBX tokens are being issued, the issuance ratio will be 0.5 and the amount of Pool Issuance Ration Tokens sold will be 5.
 
 Sample Asset Code for an XLM pool issuance ratio token: `a00XLM`&#x20;
 
-#### Liability Issuance Ratio Tokens
+#### Pool Issuance Shift Tracker Tokens
 
-Liability Issuance Ratio Tokens track YBX Incentive payouts for liability tokens by by being sent in payments that track the Issuance Ratio (Number of YBX Tokens Issued/Liability Token). So if there are 100 liability tokens outstanding and 50 YBX tokens being paid out, the amount of Liability Issuance Ratio Tokens sent will be 0.5.&#x20;
+Pool Issuance Ratio Tokens track YBX Incentive payouts for collateralized pool tokens by trading the exponential associated with the mantissa of the [issuance ratio](math.md#Issuance-Ratio) for a given pool token for a given period for an amount of Pool Issuance Ratio Tracker Tokens equal to the mantissa. To avoid negative numbers the exponential is added to 15. So if there are 100 pool tokens collateralized and 50 YBX tokens are being issued, the issuance ratio will be 0.5 and the amount of Pool Issuance Shift Tokens sold will be 16.
 
-Sample Asset Code for an XLM liability issuance ratio token: `b00XLM`&#x20;
+Sample Asset Code for an XLM pool issuance ratio token: `b00XLM`&#x20;
+
+#### Liability Issuance Ratio Tracker Tokens
+
+Liability Issuance Ratio Tokens track YBX Incentive payouts for liability tokens by trading the mantissa amount of the [issuance ratio](math.md#Issuance-Ratio) for a given liability token for a given period for an amount of Liability Issuance Shift Tracker Tokens equal to the exponential associated with that mantissa. So if there are 100 liability tokens and 50 YBX tokens are being issued, the issuance ratio will be 0.5 and the amount of Liability Issuance Ration Tokens sold will be 5.
+
+Sample Asset Code for an XLM liability issuance ratio token: `c00XLM`&#x20;
+
+#### Liability Issuance Shift Tracker Tokens
+
+Liability Issuance Ratio Tokens track YBX Incentive payouts for liability tokens by trading the exponential associated with the mantissa of the [issuance ratio](math.md#Issuance-Ratio) for a given liability token for a given period for an amount of Liability Issuance Ratio Tracker Tokens equal to the mantissa. To avoid negative numbers the exponential is added to 15. So if there 100 liability tokens and 50 YBX tokens are being issued, the issuance ratio will be 0.5 and the amount of Liability Issuance Shift Tokens sold will be 16.
+
+Sample Asset Code for an XLM pool issuance ratio token: `d00XLM`&#x20;
 
 #### vYBX
 

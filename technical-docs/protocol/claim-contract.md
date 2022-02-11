@@ -8,24 +8,18 @@ Users will claim their governance rewards using this contract. Any time a claima
 {
     userPublicKey: string,
     timestamp: number,
-    type: string,
-    operation: string,
+    fee: string,
+    type: ProtocolEventTypes,
+    operation: 'UPDATE' | 'CLAIM',
 }
 ```
 
 \
 _**Fields:**_
 
-- operation: Update or Claim, update sends issuance tracker payments for a period. Claim claims YBX for users.
+- operation: UPDATE or CLAIM, update sends issuance tracker payments for a period. Claim claims YBX for users.
 
-#### Calculations:
-
-- _Issuance Amount_
-  - the amount of YBX to issue per asset
-- _Claim Amount_
-  - the amount of YBX the user can claim over the unclaimed periods
-
-### High-Level Contract Process Flow
+### High-Level Contract Process Flow (MAY BE OUT OF DATE)
 
 1. User enters the contract through an event handler which transforms their request.
 2. Contract prerequisite data from horizon.

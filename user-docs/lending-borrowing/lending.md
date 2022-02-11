@@ -38,7 +38,11 @@ Any Stellar-based asset approved by [protocol governance](../governance.md) can 
 
 ## How do lenders withdraw lent assets?
 
-Lenders can withdraw assets by using YieldBlox's smart contracts to burn the pool tokens they received for lending assets. Doing so will also withdraw all interest the lender has accrued.
+Lenders can withdraw assets by using YieldBlox's smart contracts to burn the pool tokens they received for lending assets. Doing so will also withdraw all interest the lender has accrued. Withdrawing assets from the protocol also incurs a small [withdrawal fee](#What-are-withdrawal-fees?)
+
+## What are withdrawal fees?
+
+When lenders withdraw assets from YieldBlox by burning pool tokens they pay a small withdrawal fee to the protocol. This fee is sent to the YieldBlox DAO treasury account. The fee amount is set by [Yieldblox Governance](../governance.md)
 
 ## Is there any situation where lenders can't withdraw assets?
 

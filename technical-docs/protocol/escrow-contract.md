@@ -10,21 +10,24 @@ Users will lock and unlock escrows through this contract. Escrowing periods are 
 {
     userPublicKey: string,
     timestamp: number,
-    type: string,
-    unlockAmount: string,
+    fee: string
+    type: ProtocolEventTypes,
+    unlocks?: {escrowId: string, amount: string}[],
+    earlyUnlocks?: {escrowId: string, amount: string}[],
     lockAmount?: string,
     period?: number,
-    unlockEarlyAmount?: string
 }
 ```
 
 **Fields:**
 
-- Unlock Amount: Amount of unlocked YBX the user would like to unlock
-  - Note: You cannot unlock an amount that would bring your health factor below 1.1
-- Lock Amount (Optional): Amount of YBX being locked
-- Period (Optional): 3, 6 or 9 month period to lock YBX
-- Unlock Early Amount (Optional): amount of YBX being unlocked prior to the defined unlock period
+- unlocks (OPTIONAL): Array of claimable balance ids tied to unlocked escrows and the amount from each of these escrows that the user would like to unlock.
+  - Note: Users cannot unlock an amount that would bring your health factor below 1.1 or leave them with more votes than they have voting power.
+- earlyUnlocks (OPTIONAL): Array of claimable balance ids tied to locked escrows and the amount from each of these escrows that the user would like to unlock.
+  - Note: You cannot unlock an amount that would bring your health factor below 1.1.
+- Lock Amount (OPTIONAL): Amount of YBX being locked
+- Period (OPTIONAL): 3, 6 or 9 month period to lock YBX
+- Unlock Early Amount (OPTIONAL): amount of YBX being unlocked prior to the defined unlock period
   - Note: You cannot unlock an amount that would bring your health factor below 1.1
 
 ### High-Level Contract Process Flow
