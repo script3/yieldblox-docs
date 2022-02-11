@@ -2,11 +2,11 @@
 
 ### Smart Contracts
 
-These are still under development! We will post a link to a public GitHub once they are ready to share our smart contracts with the community!
+These are still under development! A link to a public GitHub will be posted once the smart contracts are ready to share with the community!
 
 ### Audits
 
-YieldBlox's original contributors currently seeking third-party audits to ensure the security of the protocol.
+YieldBlox's original contributors are currently seeking third-party audits to ensure the security of the protocol.
 
 If any parties are interested in auditing the YieldBlox Protocol, please email support@script3.io or reach out on social media.
 
@@ -16,7 +16,7 @@ If any parties are interested in auditing the YieldBlox Protocol, please email s
 
 ### Stellar Turret Documentation
 
-[https://tss.stellar.org/](https://tss.stellar.org)
+[https://turrets.stellar.org/](https://turrets.stellar.org)
 
 ### Bug Bounty
 

@@ -1,6 +1,6 @@
 # Interest Rates
 
-YieldBlox interest rates are calculates using 4 different slopes that step up as different utilization rates are hit. This is designed to improve capital efficiency, allowing the rate to move reflexively with demand and support higher utilization levels while also preventing liquidity crunches in the protocol. As you can see by the graph below, in the final slope interest rates begin moving up extremely fast. This is to prevent a liquidity crunch by either forcing borrowers to quickly repay or enticing lenders to quickly deposit.
+YieldBlox interest rates are calculates using four different slopes that step up as different utilization rates are hit. This is designed to improve capital efficiency, allowing the rate to move reflexively with demand and support higher utilization levels while also preventing liquidity crunches in the protocol. As you can see by the graph below, in the final slope interest rates begin moving up extremely fast. This is to prevent a liquidity crunch by either forcing borrowers to quickly repay or enticing lenders to quickly deposit.
 
 ### Interest Rate Curve Graphs:
 
