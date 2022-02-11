@@ -17,9 +17,6 @@ $$U=$$the Utilization ratio\
 $$L=$$liabilities outstanding ([see](math.md#liabilities-outstanding))\
 $$B=$$the total balance of the pool\
 
-
-
-
 ### Originating Utilization Ratio
 
 Used to calculate the originating utilization for an asset.
@@ -33,8 +30,6 @@ $$U_o=$$the originating utilization ratio\
 $$U_{d+2}=$$the utilization delta payment 2 utilization-modifying transactions after loan origination\
 $$b_{o+1}=$$the block of the next utilization-modifying transaction\
 $$b_o=$$the loan origination block
-
-
 
 ### Utilization Tracker Delta \*depreciated\*
 
@@ -50,8 +45,6 @@ $$L_{i-1}=$$the total number of liability tokens at the pre-transaction ledger s
 $$B_{i-1}=$$the total pool balance at the pre-transaction ledger state of the last utilization-modifying transaction\
 $$b_{i}=$$the block of the last utilization-modifying transaction\
 $$b_{i-1}=$$the block of the second-to-last utilization-modifying transaction
-
-
 
 ### Utilization Adjustment \*depreciated\*
 
@@ -72,8 +65,6 @@ $$b_{i-2} =$$the block of the third-to-last utilization-modifying transaction\
 $$U_{di} =$$the utilization delta payment of the last utilization-modifying transaction\
 $$U_{ai} =$$the utilization adjustment payment of the last utilization-modifying transaction
 
-
-
 ### Average Utilization Ratio \*depreciated\*
 
 Used to calculate the average utilization ratio for a loan.
@@ -92,8 +83,6 @@ $$b_i =$$the block of the last utilization delta payment\
 $$b_o =$$the block at loan origination\
 $$U =$$the current utilization ratio\
 $$b_c =$$the current block
-
-
 
 ## Accrued Interest Tracker Updates
 
@@ -188,8 +177,6 @@ $$I_0 =$$the base interest rate\
 $$U =$$the utilization ratio\
 $$b =$$the base rate constant (low $$U$$). It is set by a pool data entry and controls the base interest rate for an asset; initially set to 0.05
 
-
-
 ### Interest Rate - Threshold One
 
 Used to calculate the current interest rate when the utilization rate is above $$T_1$$.
@@ -202,8 +189,6 @@ Where:\
 $$I_1 =$$interest rate one\
 $$U =$$the utilization ratio\
 $$I_0 =$$the base interest rate
-
-
 
 ### Interest Rate - Threshold Two
 
@@ -218,8 +203,6 @@ $$I_2 =$$interest rate two\
 $$U =$$the utilization ratio\
 $$I_1 =$$interest rate one
 
-
-
 ### Interest Rate - Threshold Three
 
 Used to calculate the interest rate when the utilization rate is above $$T_3$$.
@@ -233,19 +216,13 @@ $$I_3 =$$interest rate three\
 $$U =$$the utilization ratio\
 $$I_2 =$$interest rate two
 
-
-
 ### Average Interest Rate
 
 Calculated using the above interest rate equations, but $$U$$ becomes an aggregated utilization ratio.
 
-
-
 ### Originating Interest Rate
 
 Calculated using the above interest rate equations, but $$U$$ becomes an originating utilization ratio.
-
-
 
 ### Stable Rate
 
@@ -260,8 +237,6 @@ $$I_s =$$the stable rate\
 $$I_o =$$the originating interest rate\
 $$U_o =$$the utilization ratio at the time the loan was originated
 
-
-
 ## Minimum Collateral Requirement
 
 Used to calculate the minimum collateral required for a loan.
@@ -274,8 +249,6 @@ Where:\
 $$V_c =$$the minimum collateral value requirement\
 $$V_l =$$the value of the loan\
 $$\bar {F} =$$the average liquidation factor of the selected collateral types
-
-
 
 ## Pool Token Calculations
 
@@ -294,8 +267,6 @@ $$O_o =$$the current number of outstanding pool tokens\
 $$B_c =$$the current asset balance amount\
 $$L =$$the current number of outstanding liability tokens
 
-
-
 ### Pool Token Value
 
 Used to calculate the value of a pool token
@@ -309,8 +280,6 @@ $$V =$$the value of a pool token\
 $$B =$$the asset balance in the pool\
 $$L =$$the total number of liability tokens outstanding\
 $$T_t =$$the total number of pool tokens
-
-
 
 ## Maximum Liquidation Amount
 
@@ -328,8 +297,6 @@ $$V_l =$$the liability value\
 $$\bar{I} =$$the average liquidation incentive for the collateral assets being withdrawn\
 $$\bar {F_w} =$$the average liquidation factor for the collateral assets being withdrawn
 
-
-
 ## Health Factor
 
 Used to calculate an account's health factor.
@@ -346,8 +313,6 @@ $$V_{ci} =$$the collateral value of collateral asset $$i$$\
 $$|L| =$$the number of outstanding loans\
 $$V_{li} =$$the liability value of loaned asset $$i$$
 
-
-
 ## Maximum Liability
 
 Used to calculate the maximum liability an account can hold at one time.
@@ -361,8 +326,6 @@ $$V_l =$$the maximum liability value for an account\
 $$|C| =$$the number of collateral assets\
 $$F_i =$$the liquidation factor for asset $$i$$\
 $$V_{ci} =$$the collateral value of collateral asset $$i$$
-
-
 
 ## YBX Issuance
 
@@ -397,13 +360,11 @@ $$O =$$the total number of the given liability or pool token in claimable balanc
 
 Used to calculate the pessimistic block-average position size for a given collateral or liability position. Used to calculate YBX issuance for a position
 
-
-
 $$
 S =\frac{S_1*(b_2-b_1)+S_0*(b_1-b_0)}{(b_2-b_0)}
 $$
 
-Where:
+Where:
 
 $$S=$$the positions pessimistic block-weighted average size\
 $$S_1=$$the most recent position size\
@@ -411,10 +372,6 @@ $$S_0 =$$the previous position size\
 $$b_2 =$$the block of the most recent issuance update payment\
 $$b_1 =$$the block the position was last modified on\
 $$b_0 =$$the greater of the block of the last issuance update payment prior to the position being modified and the block the position was last modified on before the most recent modification.
-
-
-
-
 
 ## YieldBlox Default Protection Amount
 
@@ -428,3 +385,5 @@ $$R =$$the YieldBlox Default Protection amount\
 $$V_l =$$the liability value\
 $$V_c =$$the collateral value\
 $$\bar {I_a} =$$the average liquidation incentive for the account's collateral balances
+
+## veYBX Unlock Value

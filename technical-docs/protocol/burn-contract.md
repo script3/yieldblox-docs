@@ -8,25 +8,19 @@ The burn contract is used to exchange pool tokens for the underlying assets they
 {
     userPublicKey: string,
     timestamp: number,
-    type: string,
-    poolTokenCode: string,
-    amount: string
+    fee: string,
+    type: ProtocolEventTypes,
+    withdrawal?: BalanceLine,
+    burn?: BalanceLine
 }
 ```
 
 #### Fields:
 
-- Pool Token Code: asset code of the pool token being burned
-- Amount: amount of pool tokens to burn
+- withdrawal (OPTIONAL): [BalanceLine](README.md#Balance-Line-Objects) representing the pool token being uncollateralized and the amount of the pool token being uncollateralized.
+- burn (OPTIONAL): [BalanceLine](README.md#Balance-Line-Objects) representing the pool token being burned and the amount of the pool token being burned.
 
-#### Calculations:
-
-- Asset Payout
-  - the amount of the underlying asset to payout relative to the proportion of the pool
-
-###
-
-### High-Level Contract Process Flow
+### High-Level Contract Process Flow (MAY BE OUT OF DATE)
 
 1. User enters the contract through an event handler which transforms their request.
 2. Contract prerequisite data from horizon
@@ -36,11 +30,11 @@ The burn contract is used to exchange pool tokens for the underlying assets they
 3. Contract builds a transaction builder object
    1. This is the object operations will be added to throughout the rest of the contract process flow.
 4. Contract calculates the value of the poolToken, subtracting withdrawal fees.
-   1. Contract adds a `pathPayment` operation where the pool uses the withdrawal fee to purchase YBX and send it to the escrow pool (the destination asset is YBX).
-5. Contract adds a `payment` operation where the user pays the poolTokens they are burning to the pool (deleting them).
-6. Contract adds a `payment` operation where the pool pays the value of the burned pool tokens in underlying to the user.
-7. Contract adds operations to handle Utilization Updates and Corrections. See Average Utilization Ratios section.
-8. Turret builds, signs, and returns transaction XDR.
+5. Contract adds a `payment` operation where the pool sends withdrawal fees to the DAO treasury.
+6. Contract adds a `payment` operation where the user pays the poolTokens they are burning to the pool (deleting them).
+7. Contract adds a `payment` operation where the pool pays the value of the burned pool tokens in underlying to the user.
+8. Contract adds operations to handle Utilization Updates and Corrections. See Average Utilization Ratios section.
+9. Turret builds, signs, and returns transaction XDR.
 
 ### Diagram
 

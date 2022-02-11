@@ -6,39 +6,25 @@ Lending, collateralizations, and borrowing take place through the Mint contract.
 
 ```
 {
-    userPublicKey: string,
-    timestamp: number,
-    type: string,
-    deposit?: {
-        asset: string,
-        amount: string
-        },
-    borrow?: {
-        asset: string,
-        amount: string
-        },
-    collateralization?: [{
-        asset: string,
-        amount: string
-        }]
+   userPublicKey: string,
+   timestamp: number,
+   type: ProtocolEventTypes,
+   targetPool: string,
+   collateralizations: BalanceLine[]
+   deposit?: BalanceLine,
+   borrow?: BalanceLine,
 }
 ```
 
 **Fields:**
 
-* Deposit (Optional): The asset and amount of the asset the user would like to deposit into the lending pool.
-* Borrow (Optional): The asset and the amount of the asset the user would like to borrow.
-  * Note: If the user attempts to borrow an amount that would put their health factor below 1.1, their request is rejected.
-* Collateralizations (Optional): The pool tokens and the amount of the pool tokens the user would like to collateralize
+- targetPool: Id of the pool associated with the assets being repaid.
+- collateralizations: Array of [BalanceLine](README.md#Balance-Line-Objects)'s representing the pool tokens and the amount of the pool tokens the user would like to collateralize. If the user does not wish to add additional collateral they can submit an empty array.
+- Deposit (Optional): [BalanceLine](README.md#Balance-Line-Objects) representing the asset and amount of the asset the user would like to deposit into the lending pool. Expects an underlying [assetId](README.md#AssetId-entries).
+- Borrow (Optional): [BalanceLine](README.md#Balance-Line-Objects) representing the asset and the amount of the asset the user would like to borrow. Expects an underlying [assetId](README.md#AssetId-entries).
+  - Note: If the user attempts to borrow an amount that would put their health factor below 1.1, their request is rejected.
 
-#### Calculations:
-
-* Pool Token Issuance - _depositing_
-  * the amount of pool tokens to issue for a deposit for the current price of the pool token
-* Account Health Factor - _borrowing_
-  * check that the assumed health factor post borrow is valid and above 1.1
-
-### High-Level Contract Process Flow
+### High-Level Contract Process Flow (MAY BE OUT OF DATE)
 
 1. User enters the contract through an event handler which transforms their request.
 2. Contract prerequisite data from horizon.

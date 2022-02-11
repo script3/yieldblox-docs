@@ -16,20 +16,19 @@ Utilization Rate: .95
 
 Interest Rate Thresholds:
 
-* Threshold 1: .7
-* Threshold 2: .9
-* Threshold 3: .97
+- Threshold 1: .7
+- Threshold 2: .9
+- Threshold 3: .97
 
 Base Interest Rate: .05
 
 Interest Rate Slopes"
 
-* Slope 0: .2
-* Slope 1: 1.5
-* Slope 2: 7.5
-* Slope 3: 350
+- Slope 0: .2
+- Slope 1: 1.5
+- Slope 2: 7.5
+- Slope 3: 350
 
 In this case the interest rate would be 86.5%
 
 .05+ .7\*.2+1.5\*(.9-.7)+7.5\*(.95-.9) = .865
-

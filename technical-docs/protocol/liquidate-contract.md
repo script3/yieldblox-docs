@@ -6,43 +6,29 @@ Users use the liquidate contract to liquidate underwater accounts where the heal
 
 ```
 {
-    userPublicKey: (userPublicKey), //string
-    timestamp: (currentTimestamp), //number
-    type: (protocolEventType) //string
-    liquidateeId: (Liquidatee public key), //string
-    repayments: [{
-        asset: (assetCode):(assetIssuer), //string
-        amount: (amount), //string
-        interestType: (interestType) //string
-        }],
-    withdrawals?: [{
-        asset: (poolTokenCode):(poolTokenIssuer), //string
-        percent: (withdrawalPercent) //string
-    }],
-    repayWithCollateral: (boolean), //string
-    acceptableSlippage?: (acceptable slippage percentage) //number
+   userPublicKey: string,
+   timestamp: number,
+   type: ProtocolEventTypes,
+   liquidateeId: string,
+   repayments: BalanceLine[],
+   withdrawals: BalanceLine[],
+   targetPool: string,
+   backstopOrder: string[],
+   collateralRepayments?: RepayPath[]
 }
 ```
 
 \
 **Fields:**
 
-- liquidatee Id: public key of the account being liquidated
-- repayments: assets and amounts being repaid as well as the interest type('FIXED' or 'VARIABLE') of the loan being repaid
-- withdrawals (Optional): pool tokens and percentage of total repaid value to withdraw as the specified asset
-  - &#x20;Example: If, in total, the user repaid $1000 and they input XLM with 50%, we will attempt to withdraw $500 worth of XLM.
-  - Note: If a user's collateral deposit is not sufficient to withdraw the input percentage, we will withdraw the maximum amount of that asset then withdraw the rest in other collateral deposits.
-  - Note: If withdrawals are not input, the smart contract will proportionally withdraw from all collateral assets the user holds.
-- repay with collateral: true if the user decides to repay with collateral
-  - This means they will burn the withdrawn pool tokens and use a pathPayment to repay the borrow
-- acceptable slippage (Optional): acceptable slippage for the path payments used when repaying with collateral
+- liquidateeId: public key of the account being liquidated
+- repayments: array of [BalanceLine](README.md#Balance-Line-Objects)'s that represent the assets and amounts being repaid. [assetId](README.md#AssetId-entries)'s are expected to be liability tokens.
+- withdrawals: array of [BalanceLine](README.md#Balance-Line-Objects)'s that represent the assets and amounts being repaid. [assetId](README.md#AssetId-entries)'s are expected to be pool tokens.
+- targetPool: Id of the pool associated with the assets being repaid.
+- backstopOrder: Array of [assetId](README.md#AssetId-entries)'s.
+- collateralRepayments (OPTIONAL): Array of [RepayPath](README.md#Repay-Path-Objects)'s describing how to structure the pathPayments that will be used to liquidate collateral withdrawn. These are only input if the liquidator is partially or fully liquidating with collateral.
 
-#### Calculations:
-
-- _Max Liquidation_
-  - the max amount the liquidator can liquidate till the delinquent account's health factor reaches 1.02
-
-### High-Level Contract Process Flow
+### High-Level Contract Process Flow (MAY BE OUT OF DATE)
 
 1. User enters the contract through an event handler which transforms their request.
 2. Contract prerequisite data from horizon.

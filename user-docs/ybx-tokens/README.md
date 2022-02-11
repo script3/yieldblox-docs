@@ -10,11 +10,11 @@ YBX tokens are the YieldBlox protocol's utility tokens. They are used to govern 
 
 YBX issuer address is&#x20;
 
-****[**GBUYYBXWCLT2MOSSHRFCKMEDFOVSCAXNIEW424GLN666OEXHAAWBDYMX**](https://stellar.expert/explorer/public/asset/YBX-GBUYYBXWCLT2MOSSHRFCKMEDFOVSCAXNIEW424GLN666OEXHAAWBDYMX)****
+\***\*[**GBUYYBXWCLT2MOSSHRFCKMEDFOVSCAXNIEW424GLN666OEXHAAWBDYMX**](https://stellar.expert/explorer/public/asset/YBX-GBUYYBXWCLT2MOSSHRFCKMEDFOVSCAXNIEW424GLN666OEXHAAWBDYMX)\*\***
 
 ## How many YBX tokens are there?
 
-There are a total of 1,500,000,000 YBX tokens to be allocated.
+There are a total of 1,500,000,000 YBX tokens to be issued.
 
 ## How do I get YBX tokens?
 
