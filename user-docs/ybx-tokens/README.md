@@ -8,9 +8,9 @@ YBX tokens are the YieldBlox protocol's utility tokens. They are used to govern 
 
 ## What is the YBX issuer address?
 
-YBX issuer address is&#x20;
+YBX issuer address is
 
-\***\*[**GBUYYBXWCLT2MOSSHRFCKMEDFOVSCAXNIEW424GLN666OEXHAAWBDYMX**](https://stellar.expert/explorer/public/asset/YBX-GBUYYBXWCLT2MOSSHRFCKMEDFOVSCAXNIEW424GLN666OEXHAAWBDYMX)\*\***
+[**GBUYYBXWCLT2MOSSHRFCKMEDFOVSCAXNIEW424GLN666OEXHAAWBDYMX**](https://stellar.expert/explorer/public/asset/YBX-GBUYYBXWCLT2MOSSHRFCKMEDFOVSCAXNIEW424GLN666OEXHAAWBDYMX)
 
 ## How many YBX tokens are there?
 

@@ -15,7 +15,7 @@ $$
 Where:\
 $$U=$$the Utilization ratio\
 $$L=$$liabilities outstanding ([see](math.md#liabilities-outstanding))\
-$$B=$$the total balance of the pool\
+$$B=$$the total balance of the pool\\
 
 ### Originating Utilization Ratio
 
@@ -58,7 +58,7 @@ Where:\
 $$U_a=$$the utilization adjustment\
 $$U_{\Delta w} =$$the place of the furthest back incorrect utilization delta payment\
 $$U_{\Delta l} =$$the place of the utilization delta payment of the last utilization-modifying transaction\
-$$L_{i-2} =$$the total number of liability tokens at the pre-transaction ledger state of the utilization-modifying transaction 2 utilization-modifying transactions ago \
+$$L_{i-2} =$$the total number of liability tokens at the pre-transaction ledger state of the utilization-modifying transaction 2 utilization-modifying transactions ago\
 $$B_{i-2} =$$the total pool balance at the pre-transaction ledger state of the utilization-modifying transaction 2 utilization-modifying transactions ago\
 $$b_{i-1} =$$the block of second-to-last utilization-modifying transaction\
 $$b_{i-2} =$$the block of the third-to-last utilization-modifying transaction\
@@ -102,7 +102,7 @@ $$I(U)=$$Interest Rate (see [equation](math.md#interest-rate-calculations))
 
 $$b_y=$$Average blocks per year. Hardcoded variable. Assumed to be 6,307,200 (5-sec ledger close time).
 
-$$B=$$Accrued interest tracker balance&#x20;
+$$B=$$Accrued interest tracker balance
 
 ## Liability Token Calculations
 
@@ -272,7 +272,7 @@ $$L =$$the current number of outstanding liability tokens
 Used to calculate the value of a pool token
 
 $$
-A =  \frac {(B+L)} {T_t}
+A = \frac {(B+L)} {T_t}
 $$
 
 Where:\
@@ -343,7 +343,7 @@ $$R =$$the total YBX issuance rate; initially 0.0075
 
 ## Issuance Ratio
 
-Used to calculate how much YBX to issue per liability or pool token&#x20;
+Used to calculate how much YBX to issue per liability or pool token
 
 $$
 R =\frac{A*T}{O}
@@ -386,4 +386,3 @@ $$V_l =$$the liability value\
 $$V_c =$$the collateral value\
 $$\bar {I_a} =$$the average liquidation incentive for the account's collateral balances
 
-## veYBX Unlock Value

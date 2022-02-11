@@ -7,7 +7,7 @@ coverY: 0
 
 ## What is YieldBlox?
 
-YieldBlox is a decentralized finance (DeFi) protocol for lending and borrowing built on [Stellar](https://www.stellar.org). Users carry out all protocol functions using YieldBlox's smart contracts hosted on [Stellar Turrets](https://tss.stellar.org). These can be accessed either directly using API calls, or through a front-end such as Script3's [YieldBlox web app](https://www.yieldblox.finance/).
+YieldBlox is a decentralized finance (DeFi) protocol for lending and borrowing built on [Stellar](https://www.stellar.org). Users carry out all protocol functions using YieldBlox's smart contracts hosted on [Stellar Turrets](https://tss.stellar.org). These can be accessed either directly using API calls, or through a front-end such as Script3's [YieldBlox web app](https://www.yieldblox.finance).
 
 ## What is a decentralized finance protocol?
 
@@ -38,10 +38,10 @@ YieldBlox is the first DeFi protocol built on Stellar. Stellar is an excellent p
 YieldBlox brings a decentralized, on-ledger money market to the Stellar ecosystem.\
 Within the ecosystem, this promises to:
 
-- Increase and trading payment liquidity
-- Improve capital productivity
-- Reduce reliance on lending intermediaries like banks
-- Serve a global market with a cost of less than $0.01 per transaction
+* Increase and trading payment liquidity
+* Improve capital productivity
+* Reduce reliance on lending intermediaries like banks
+* Serve a global market with a cost of less than $0.01 per transaction
 
 ## How do I use YieldBlox?
 
@@ -49,12 +49,12 @@ Script3 maintains a [web app](https://testnet.yieldblox.finance) that allows use
 
 The web app currently supports the following wallets:
 
-- [**Freighter**](https://www.freighter.app)\*\*\*\*
-- \***\*[**Albedo**](https://albedo.link)\*\***
+* [**Freighter**](https://www.freighter.app)
+* [**Albedo**](https://albedo.link)
 
 As other interfaces begin to integrate YieldBlox, a list of these integrations will be shown here!
 
----
+***
 
 More technical users can also use YieldBlox directly through the Turret network that supports it. Please see the [Stellar Turrets documentation](https://turrets.stellar.org) and the technical-docs section for more information.
 
